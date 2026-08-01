@@ -1,0 +1,704 @@
+{
+  "common": {
+    "toggleTheme": "Toggle theme",
+    "changeLanguage": "Change language",
+    "chatOnWhatsapp": "Chat on WhatsApp"
+  },
+  "nav": {
+    "home": "Home",
+    "ourStory": "Our Story",
+    "purity": "Purity",
+    "products": "Products",
+    "quality": "Quality",
+    "business": "Business",
+    "contact": "Contact",
+    "whatsappUs": "WhatsApp Us",
+    "orderWater": "Order Water",
+    "menu": "Menu",
+    "bottle500ml": "500ml Bottle",
+    "bottle1l": "1L Bottle",
+    "jar20l": "20L Refill Jar",
+    "refill20l": "20L Refill",
+    "deliveryAreas": "Delivery Areas",
+    "whatsapp": "WhatsApp",
+    "retailers": "Retailers",
+    "distributors": "Distributors",
+    "bulkOrders": "Bulk Orders",
+    "partnerWithUs": "Partner With Us"
+  },
+  "footer": {
+    "tagline": "Pure water. Perfectly refined. For a healthier everyday life.",
+    "columns": {
+      "explore": "Explore",
+      "products": "Products",
+      "order": "Order",
+      "business": "Business",
+      "contact": "Contact"
+    },
+    "rightsReserved": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsAndConditions": "Terms & Conditions"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or may have moved.",
+    "backHome": "Back to Homepage"
+  },
+  "minerals": {
+    "eyebrow": "Balanced by Nature",
+    "title": "Mineral Composition (mg/ltr)",
+    "calcium": "Calcium",
+    "magnesium": "Magnesium",
+    "sodium": "Sodium",
+    "potassium": "Potassium",
+    "chloride": "Chloride",
+    "tds": "Total Dissolved Solids",
+    "disclaimer": "Approximate mineral composition in mg/ltr. Actual values may vary slightly by batch."
+  },
+  "home": {
+    "hero": {
+      "kicker": "Pure by nature.",
+      "title": "Perfected by science.",
+      "description": "From the untouched springs of Nepal to your home, Bella water is purified with advanced technology and enriched with essential minerals for a pure, refreshing and healthy life.",
+      "primaryCta": "Order 20L Refill",
+      "secondaryCta": "Explore Our Products",
+      "imageAlt": "Bella premium drinking water bottles",
+      "stats": {
+        "0": "Advanced Purification",
+        "1": "Mineral Balanced",
+        "2": "Trusted Quality",
+        "3": "Safe for Everyday"
+      }
+    },
+    "trustBar": {
+      "eyebrow": "Born in Nature. Perfected for You.",
+      "items": {
+        "pureSafe": {
+          "title": "100% Pure & Safe",
+          "description": "4-step advanced purification process"
+        },
+        "essentialMinerals": {
+          "title": "Essential Minerals",
+          "description": "Enriched with naturally occurring minerals"
+        },
+        "nepalProud": {
+          "title": "Nepal Proud",
+          "description": "Sourced, purified & bottled in the heart of Nepal"
+        },
+        "trustedThousands": {
+          "title": "Trusted by Thousands",
+          "description": "Daily hydration for families, offices & communities"
+        }
+      }
+    },
+    "purityPreview": {
+      "eyebrow": "The Bella Purity Process",
+      "title": "Every drop goes through a journey of purity.",
+      "description": "We combine nature and technology to deliver water you can truly trust.",
+      "cta": "Learn Our Process"
+    },
+    "productsPreview": {
+      "eyebrow": "Hydration for Every Moment",
+      "title": "Choose the Bella that fits your life.",
+      "description": "From on-the-go hydration to home and office needs, Bella has the perfect choice for you.",
+      "cta": "View All Products"
+    },
+    "whyChoose": {
+      "eyebrow": "Why Choose Bella?",
+      "title": "More than just water. It's a promise.",
+      "description": "We are committed to purity, safety and sustainability in everything we do.",
+      "badge": "Quality You Can Trust",
+      "commitments": {
+        "testing": "Rigorous quality testing at every stage",
+        "packaging": "Hygienic packaging with seal safety",
+        "delivery": "On-time delivery you can rely on",
+        "sustainability": "Environment-friendly & sustainable practices"
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Loved & Trusted By",
+      "title": "Real people. Real stories.",
+      "basedOn": "Based on thousands of happy customers",
+      "items": {
+        "sumanShrestha": {
+          "quote": "Bella water has become a part of our daily life. The quality and taste are unmatched.",
+          "role": "Home Owner"
+        },
+        "rajanK": {
+          "quote": "We rely on Bella 20L for our office. Timely delivery and consistent quality every time.",
+          "role": "Office Manager"
+        },
+        "anitaGurung": {
+          "quote": "Finally, a brand that truly cares about purity and our health.",
+          "role": "Customer"
+        }
+      }
+    },
+    "deliveryBanner": {
+      "title": "Pure water. Delivered to your doorstep.",
+      "description": "Order 20L refill in seconds and enjoy hassle-free delivery to your home or office.",
+      "cta": "Order Now on WhatsApp"
+    }
+  },
+  "ourStory": {
+    "hero": {
+      "eyebrow": "Our Story",
+      "title": "Water with a story rooted in nature.",
+      "description": "Bella is more than just water. It is the result of nature's purity and our commitment to advanced purification, quality, and the well-being of every family.",
+      "stats": {
+        "purity": "Pure Source",
+        "minerals": "Added Minerals",
+        "quality": "Trusted Quality",
+        "trusted": "Advanced Purification"
+      },
+      "ctaTitle": "Be a part of the Bella journey. Because every drop matters.",
+      "ctaWhatsapp": "Order Water",
+      "ctaProducts": "Explore Products"
+    },
+    "journey": {
+      "eyebrow": "Our Journey",
+      "title": "The Bella Story",
+      "description": "Bella was born from a simple belief — everyone deserves safe, clean and mineral-balanced drinking water. From our carefully selected source to our state-of-the-art purification process, every step is taken with care and responsibility. We are proud to deliver water that you can trust, every single day.",
+      "cta": "Our Commitment",
+      "items": {
+        "pureSource": "Carefully selected water sources from nature.",
+        "advancedPurification": "RO, Nano Filtration, Ozonation & UV for complete purity.",
+        "addedMinerals": "Perfectly balanced minerals for better health & taste.",
+        "trustedQuality": "Tested, certified and delivered with care you can trust."
+      }
+    },
+    "mission": {
+      "eyebrow": "Our Mission",
+      "title": "Better Water. Better Life.",
+      "description": "Our mission is to make premium quality drinking water accessible to every home, office and community while maintaining the highest standards of purity, safety and sustainability.",
+      "items": {
+        "families": {
+          "title": "For Families",
+          "description": "Safe and healthy water for your loved ones."
+        },
+        "workplaces": {
+          "title": "For Workplaces",
+          "description": "Keep your team refreshed and productive."
+        },
+        "future": {
+          "title": "For the Future",
+          "description": "Sustainability and care for our planet."
+        }
+      }
+    },
+    "factory": {
+      "eyebrow": "Our Factory",
+      "title": "Built with care. Powered by technology.",
+      "description": "Our modern facility in Biratnagar is equipped with global-standard technology and operated by a dedicated team to ensure every drop of Bella meets the highest quality.",
+      "cta": "Take a Tour",
+      "items": {
+        "environment": {
+          "title": "Hygienic Environment",
+          "description": "Maintained at the highest industry standards."
+        },
+        "equipment": {
+          "title": "Advanced Equipment",
+          "description": "Automated systems for precise purification."
+        },
+        "lab": {
+          "title": "Quality Testing Lab",
+          "description": "Regular testing to ensure consistency and safety."
+        },
+        "team": {
+          "title": "Skilled Team",
+          "description": "Trained professionals committed to excellence."
+        }
+      }
+    },
+    "localRoots": {
+      "eyebrow": "Our Roots",
+      "title": "Proudly From Biratnagar, Nepal",
+      "description": "We are a local brand with a global standard. Rooted in our community, we are dedicated to serving you with purity, honesty and care.",
+      "items": {
+        "location": "Location",
+        "phone": "Call or WhatsApp",
+        "email": "We're here to help",
+        "hours": "Working Hours"
+      }
+    }
+  },
+  "purity": {
+    "hero": {
+      "eyebrow": "Our Purity Promise",
+      "title": "Pure by nature. Perfected by science.",
+      "description": "Every drop of Bella water goes through a meticulous 4-step purification process and is enriched with essential minerals to deliver purity, safety and great taste.",
+      "stats": {
+        "purification": "Advanced Purification",
+        "microbial": "Microbial Safety",
+        "minerals": "Added Minerals",
+        "trusted": "Trusted Quality"
+      },
+      "ctaTitle": "Four advanced steps. One promise.",
+      "ctaWhatsapp": "Order Water",
+      "ctaQuality": "Explore Quality"
+    },
+    "process": {
+      "eyebrow": "Our 4-Step Purification Process",
+      "title": "Purity you can trust, in every step.",
+      "steps": {
+        "reverseOsmosis": {
+          "title": "Reverse Osmosis",
+          "description": "High-performance RO membranes remove dissolved impurities, heavy metals, salts and contaminants, ensuring a pure and safe foundation."
+        },
+        "nanoFiltration": {
+          "title": "Nano Filtration",
+          "description": "Nano filtration refines the water at a microscopic level, reducing remaining particles and enhancing clarity, taste and overall quality."
+        },
+        "ozonation": {
+          "title": "Ozonation",
+          "description": "Ozone treatment eliminates harmful bacteria, viruses and organic impurities, leaving the water exceptionally fresh and pure."
+        },
+        "uvSterilization": {
+          "title": "UV Sterilization",
+          "description": "UV light provides the final barrier of protection, ensuring complete microbial safety without using any chemicals."
+        }
+      }
+    },
+    "certified": {
+      "title": "Tested. Certified. Delivered with care.",
+      "description": "Every batch is rigorously tested in advanced laboratories to ensure consistency and safety.",
+      "cta": "View Certificates",
+      "items": {
+        "labTesting": "Regular Lab Testing",
+        "consistentQuality": "Consistent Quality",
+        "safetyGuaranteed": "Safety Guaranteed",
+        "dftqcRegistered": "DFTQC Registered",
+        "sealSafety": "Seal Safety Guaranteed"
+      }
+    }
+  },
+  "products": {
+    "hero": {
+      "eyebrow": "Our Products",
+      "title": "Pure water. Perfect for every you.",
+      "description": "From on-the-go hydration to home and office needs, Bella has the perfect choice for you.",
+      "stats": {
+        "purification": "Advanced Purification",
+        "minerals": "Essential Minerals",
+        "quality": "Trusted Quality"
+      },
+      "ctaTitle": "Good water. Every day.",
+      "ctaWhatsapp": "Order Water Now",
+      "ctaDelivery": "Check Delivery Area"
+    },
+    "grid": {
+      "eyebrow": "Choose Your Bella",
+      "title": "Our Product Range"
+    },
+    "card": {
+      "learnMore": "Learn More"
+    },
+    "compare": {
+      "title": "Compare & Choose",
+      "features": "Features",
+      "rows": {
+        "availableSizes": "Available Sizes",
+        "bestFor": "Best For",
+        "portability": "Portability",
+        "refillable": "Refill / Reusable",
+        "idealUse": "Ideal Use"
+      },
+      "helpTitle": "Not sure which one to choose?",
+      "helpDescription": "We're here to help!",
+      "chatCta": "Chat on WhatsApp"
+    },
+    "featureStrip": {
+      "pureSafe": {
+        "title": "Pure & Safe",
+        "description": "4-step advanced purification process"
+      },
+      "mineralBalanced": {
+        "title": "Mineral Balanced",
+        "description": "Enriched with essential minerals"
+      },
+      "qualityAssured": {
+        "title": "Quality Assured",
+        "description": "Tested, certified and trusted"
+      },
+      "reliableDelivery": {
+        "title": "Reliable Delivery",
+        "description": "On-time delivery to your doorstep"
+      }
+    },
+    "items": {
+      "bottle500ml": {
+        "badge": "On the Go",
+        "name": "500ml Bottle",
+        "tagline": "For life on the move.",
+        "description": "Perfect for travel, workouts, daily carry and instant refreshment.",
+        "idealUse": "On the go",
+        "features": {
+          "easyToCarry": "Easy to carry",
+          "perfectHydration": "Perfect hydration",
+          "trustedQuality": "Trusted quality"
+        }
+      },
+      "bottle1l": {
+        "badge": "Everyday Companion",
+        "name": "1L Bottle",
+        "tagline": "Your everyday companion.",
+        "description": "Pure, balanced and perfect for you and your family.",
+        "idealUse": "Everyday hydration",
+        "features": {
+          "pureBalanced": "Pure & balanced",
+          "essentialMinerals": "Essential minerals",
+          "trustedPurity": "Trusted purity"
+        }
+      },
+      "jar20l": {
+        "badge": "For Homes & Offices",
+        "name": "20L Refill Jar",
+        "tagline": "Water for every day.",
+        "description": "Ideal for homes, offices and institutions. Order once, we deliver regularly.",
+        "idealUse": "Home, office & institutions",
+        "features": {
+          "costEffective": "Cost effective",
+          "ecoFriendly": "Eco friendly",
+          "alwaysAvailable": "Always available"
+        }
+      }
+    }
+  },
+  "quality": {
+    "hero": {
+      "eyebrow": "Quality You Can Trust",
+      "title": "Quality isn't a claim. It's a process.",
+      "description": "Bella water goes through a strict quality control process at every step — from source to seal — to ensure that every drop you drink is pure, safe and reliable.",
+      "stats": {
+        "purification": "Advanced Purification",
+        "tested": "Tested & Certified",
+        "minerals": "Essential Minerals",
+        "safe": "Safe for Everyday"
+      },
+      "ctaTitle": "Your safety is our first priority.",
+      "ctaWhatsapp": "Order Water",
+      "ctaContact": "Contact Us"
+    },
+    "process": {
+      "eyebrow": "Our Quality Process",
+      "title": "Controlled. Monitored. Guaranteed.",
+      "steps": {
+        "sourceSelection": {
+          "title": "Source Selection",
+          "description": "Carefully selected water sources"
+        },
+        "advancedPurification": {
+          "title": "Advanced Purification",
+          "description": "RO, Nano, Ozonation & UV treatment"
+        },
+        "qualityTesting": {
+          "title": "Quality Testing",
+          "description": "Regular lab testing at every stage"
+        },
+        "safePackaging": {
+          "title": "Safe Packaging",
+          "description": "Hygienic filling & sealed packaging"
+        },
+        "secureDelivery": {
+          "title": "Secure Delivery",
+          "description": "Safe storage and on-time delivery"
+        }
+      }
+    },
+    "certifications": {
+      "eyebrow": "Our Certifications",
+      "title": "Bella is registered and certified under government standards to ensure the highest level of safety and quality.",
+      "description": "",
+      "items": {
+        "dftqc": {
+          "name": "D.F.T.Q.C Registration",
+          "regLabel": "Regd. No."
+        },
+        "companyRegistration": {
+          "name": "Company Registration",
+          "regLabel": "No."
+        },
+        "foodQuality": {
+          "name": "Food Quality Compliance",
+          "regLabel": "Status"
+        }
+      },
+      "dftqc": {
+        "title": "D.F.T.Q.C Registered",
+        "regLabel": "Regd. No.",
+        "description": "Bella is registered under the Department of Food Technology and Quality Control (DFTQC) and follows all the required quality and safety regulations.",
+        "cta": "Request Registration Document"
+      }
+    },
+    "standards": {
+      "title": "Our Quality Standards",
+      "labTesting": {
+        "title": "Regular Lab Testing",
+        "description": "Water samples are tested regularly in accredited laboratories."
+      },
+      "consistentQuality": {
+        "title": "Consistent Quality",
+        "description": "Strict monitoring ensures consistent quality in every batch."
+      },
+      "equipment": {
+        "title": "International Equipment",
+        "description": "We use advanced equipment and technology for superior purification."
+      },
+      "skilledProfessionals": {
+        "title": "Skilled Professionals",
+        "description": "Trained and experienced team maintains the highest standards."
+      },
+      "standardCompliance": {
+        "title": "Standard Compliance",
+        "description": "We follow all government guidelines and safety regulations."
+      }
+    },
+    "sealSafety": {
+      "eyebrow": "Seal Safety",
+      "title": "Your safety is our first priority.",
+      "description": "Do not buy if seal is broken or missing. Always check the seal before use.",
+      "points": {
+        "sealed": "Every bottle is sealed for your protection.",
+        "tamperProof": "Tamper-proof seal ensures complete safety.",
+        "checkSeal": "If seal is broken or missing, do not use.",
+        "storage": "Store in a cool, clean and dry place."
+      }
+    },
+    "storage": {
+      "bestBefore": {
+        "title": "Best Before",
+        "description": "9 months from Mfg. date"
+      },
+      "storage": {
+        "title": "Storage",
+        "description": "Store in a cool & dry place away from sunlight"
+      },
+      "packaging": {
+        "title": "Packaging",
+        "description": "Hygienically packed and sealed"
+      },
+      "recyclable": {
+        "title": "Go Green",
+        "description": "100% recyclable, BPA free bottles"
+      }
+    }
+  },
+  "business": {
+    "hero": {
+      "eyebrow": "Partner With Bella",
+      "title": "Let's grow together.",
+      "description": "Join hands with Bella and bring premium, trusted drinking water to more people and build a successful business with us.",
+      "stats": {
+        "brand": "Strong Brand",
+        "quality": "Premium Quality",
+        "opportunity": "Profitable Opportunity",
+        "support": "Reliable Support"
+      },
+      "primaryCta": "Become a Partner",
+      "secondaryCta": "Contact Our Team",
+      "ctaTitle": "Let's grow together with Bella.",
+      "ctaWhatsapp": "Chat on WhatsApp",
+      "ctaCall": "Call Us Now"
+    },
+    "opportunities": {
+      "eyebrow": "Business Opportunities",
+      "title": "Opportunities for Every Business",
+      "description": "Whether you run a retail store, manage an office, or organize large events, Bella has the perfect partnership opportunity for you.",
+      "learnMore": "Learn More",
+      "items": {
+        "retailers": {
+          "title": "For Retailers",
+          "description": "Stock Bella and enjoy high demand, great margins, and strong customer trust."
+        },
+        "distributors": {
+          "title": "For Distributors",
+          "description": "Become a Bella distributor and expand your portfolio with a trusted brand."
+        },
+        "hotelsRestaurants": {
+          "title": "For Hotels & Restaurants",
+          "description": "Provide your guests with premium drinking water they can trust."
+        },
+        "eventsInstitutions": {
+          "title": "For Events & Institutions",
+          "description": "Bulk supply for events, schools, hospitals and organizations."
+        }
+      }
+    },
+    "whyPartner": {
+      "eyebrow": "Why Partner With Bella?",
+      "title": "A partnership that delivers more.",
+      "description": "We support our partners with everything they need to succeed in their market.",
+      "items": {
+        "trustedBrand": "Trusted Brand",
+        "attractiveMargins": "Attractive Margins",
+        "consistentSupply": "Consistent Supply",
+        "marketingSupport": "Marketing Support",
+        "dedicatedSupport": "Dedicated Support"
+      }
+    },
+    "form": {
+      "eyebrow": "Become Our Partner",
+      "title": "Let's build a successful partnership.",
+      "description": "Fill out the form and our team will get in touch with you shortly.",
+      "fields": {
+        "fullName": "Full Name",
+        "businessName": "Business Name",
+        "phone": "Phone Number",
+        "email": "Email Address",
+        "businessType": "Business Type",
+        "businessTypePlaceholder": "Select business type",
+        "interest": "Interested In",
+        "interestPlaceholder": "Select option",
+        "message": "Tell us about your business and requirements"
+      },
+      "businessTypes": {
+        "retailer": "Retailer",
+        "distributor": "Distributor",
+        "hotelRestaurant": "Hotel / Restaurant",
+        "eventInstitution": "Event / Institution",
+        "other": "Other"
+      },
+      "interests": {
+        "bulkOrders": "Bulk Orders",
+        "distributorship": "Distributorship",
+        "retailStock": "Retail Stock",
+        "eventSupply": "Event Supply"
+      },
+      "submit": "Submit Inquiry",
+      "submitting": "Submitting...",
+      "successTitle": "Inquiry received",
+      "successDescription": "Thank you — our team will contact you within 24 hours.",
+      "mailtoSubject": "Business partnership inquiry",
+      "assurances": {
+        "quickResponse": {
+          "title": "Quick Response",
+          "description": "We will respond within 24 hours."
+        },
+        "securePrivate": {
+          "title": "Secure & Private",
+          "description": "Your information is safe with us."
+        },
+        "personalizedSupport": {
+          "title": "Personalized Support",
+          "description": "Get guidance tailored to your business."
+        }
+      },
+      "guarantee": "We treat every partner inquiry with care and respond personally — no spam, no automated sales calls."
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Get in Touch",
+      "title": "We're here to help you.",
+      "description": "Have a question, need support, or want to place an order? Our team is always ready to assist you.",
+      "primaryCta": "Chat on WhatsApp",
+      "secondaryCta": "Call Us Now",
+      "ctaTitle": "Need water delivered?",
+      "ctaWhatsapp": "Order on WhatsApp"
+    },
+    "info": {
+      "eyebrow": "Contact Information",
+      "title": "Reach Us Anytime",
+      "call": { "title": "Call Us", "note": "Mon - Sat (8AM - 6PM), Sunday Closed" },
+      "whatsapp": { "title": "WhatsApp", "note": "We're active on WhatsApp for quick support" },
+      "email": { "title": "Email Us", "note": "We reply within 24 hours" },
+      "visit": { "title": "Visit Us", "note": "Eastern Food & Beverage Pvt. Ltd." }
+    },
+    "office": {
+      "mapTitle": "Bella Water Factory location",
+      "title": "Our Office & Factory",
+      "description": "You are always welcome to visit our factory. See how Bella water is purified, tested and packed with care.",
+      "hoursLabel": "Factory Hours"
+    },
+    "deliveryAreas": {
+      "title": "Delivery Areas",
+      "description": "We deliver across Biratnagar and nearby areas.",
+      "cta": "Check Your Area"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "description": "Fill out the form and we'll get back to you as soon as possible.",
+      "fields": {
+        "name": "Your Name",
+        "phone": "Phone Number",
+        "email": "Email Address",
+        "subject": "Subject",
+        "message": "Your Message"
+      },
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "successTitle": "Message sent",
+      "successDescription": "Thanks for reaching out — we'll reply within 24 hours."
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: August 2026",
+      "intro": "This Privacy Policy explains how Eastern Food & Beverage Pvt. Ltd. (\"Bella\", \"we\", \"us\") collects, uses and protects your information when you use bellawater.com.np or contact us to place an order.",
+      "sections": {
+        "dataCollected": {
+          "title": "Information We Collect",
+          "body": "When you contact us or submit an inquiry, we may collect your name, phone number, email address, delivery address and any details you provide in your message."
+        },
+        "dataUse": {
+          "title": "How We Use Your Information",
+          "body": "We use this information solely to respond to your inquiry, process orders and deliveries, and improve our service. We do not sell your information to third parties."
+        },
+        "contact": {
+          "title": "Contact Us",
+          "body": "For any privacy-related questions, reach out to"
+        }
+      }
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "lastUpdated": "Last updated: August 2026",
+      "intro": "By ordering from or using bellawater.com.np, you agree to the following terms.",
+      "sections": {
+        "orders": {
+          "title": "Orders",
+          "body": "Orders placed via WhatsApp, phone or the contact form are confirmed once acknowledged by our team. Prices and product availability are subject to change without notice."
+        },
+        "delivery": {
+          "title": "Delivery",
+          "body": "Delivery is available within our published delivery areas and hours. Delivery times are estimates and may vary due to weather, traffic or demand."
+        },
+        "liability": {
+          "title": "Liability",
+          "body": "Do not consume water from a bottle or jar with a broken or missing seal. Report any quality concerns to us immediately at the contact details provided."
+        }
+      }
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "Bella — Premium Drinking Water from Nepal",
+      "description": "Bella is a premium packaged drinking water brand from Biratnagar, Nepal — advanced 4-step purification, mineral-balanced, DFTQC-registered, delivered fresh to your doorstep."
+    },
+    "ourStory": {
+      "title": "Our Story",
+      "description": "Discover the story behind Bella — from our source in nature to our state-of-the-art purification facility in Biratnagar, Nepal."
+    },
+    "purity": {
+      "title": "Our Purity Process",
+      "description": "Learn about Bella's 4-step purification process: Reverse Osmosis, Nano Filtration, Ozonation and UV Sterilization."
+    },
+    "products": {
+      "title": "Our Products",
+      "description": "Explore the Bella product range — 500ml bottles, 1L bottles and 20L refill jars for home, office and on-the-go hydration."
+    },
+    "quality": {
+      "title": "Quality & Certifications",
+      "description": "Bella water is DFTQC-registered and tested at every stage — from source selection to secure delivery."
+    },
+    "business": {
+      "title": "Business Partnerships",
+      "description": "Partner with Bella as a retailer, distributor, or bulk supplier for hotels, restaurants and events across Nepal."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Get in touch with Bella for orders, delivery inquiries or business partnerships. Call, WhatsApp or visit our factory in Biratnagar."
+    }
+  }
+}
