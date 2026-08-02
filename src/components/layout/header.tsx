@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Menu, MessageCircle, ShoppingCart } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
@@ -17,9 +17,52 @@ export function Header() {
   const t = useTranslations("nav");
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [hidden, setHidden] = useState(false);
+  const lastScrollY = useRef(0);
+  const stopTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    function onScroll() {
+      const y = window.scrollY;
+      setScrolled(y > 24);
+
+      // Hide while actively scrolling down past the hero; reveal on scroll up,
+      // and always reveal again shortly after scrolling stops.
+      setHidden(y > lastScrollY.current && y > 120);
+      lastScrollY.current = y;
+
+      if (stopTimer.current) clearTimeout(stopTimer.current);
+      stopTimer.current = setTimeout(() => setHidden(false), 500);
+    }
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      if (stopTimer.current) clearTimeout(stopTimer.current);
+    };
+  }, []);
+
+  // Only pages listed in mainNav have a hero photo behind the header — everything
+  // else (legal pages, 404) always gets the fully solid header.
+  const hasHero = mainNav.some((item) => (item.href === "/" ? pathname === "/" : pathname.startsWith(item.href)));
+  const solid = scrolled || open || !hasHero;
 
   return (
-    <header className="sticky top-0 z-50 border-b bg-background/90 backdrop-blur-sm">
+    <header
+      className={cn(
+        "fixed inset-x-0 top-0 z-50 border-b transition-all duration-300",
+        solid
+          ? "border-border bg-background/90 backdrop-blur-sm"
+          // No background of its own here — the hero section underneath already
+          // renders a full-height scrim, so this stays fully transparent to avoid
+          // stacking a second, independently-edged layer (which showed as a seam
+          // at the header's bottom edge). drop-shadow is the legibility safety
+          // net instead — it covers both text and icon SVGs, unlike text-shadow.
+          : "border-transparent bg-transparent [filter:drop-shadow(0_1px_2px_rgb(0_0_0_/_0.35))]",
+        hidden && !open ? "-translate-y-full" : "translate-y-0",
+      )}
+    >
       <Container className="flex h-20 items-center justify-between gap-4 py-3">
         <Logo />
 

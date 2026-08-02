@@ -40,7 +40,7 @@ export function PageHero({ eyebrow, title, description, image, stats, actions, c
         aria-hidden
       />
 
-      <Container className="py-14 sm:py-20">
+      <Container className="pt-28 pb-14 sm:pt-32 sm:pb-20">
         <div className="max-w-xl">
           <p className="mb-3 text-sm font-semibold tracking-wide text-brand-navy uppercase dark:text-primary">
             {eyebrow}

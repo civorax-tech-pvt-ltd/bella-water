@@ -24,7 +24,7 @@ export default async function PrivacyPolicyPage({
   const t = await getTranslations({ locale, namespace: "legal.privacy" });
 
   return (
-    <Container className="max-w-3xl py-16 sm:py-20">
+    <Container className="max-w-3xl pt-28 pb-16 sm:pt-32 sm:pb-20">
       <h1 className="text-3xl font-bold text-brand-navy dark:text-foreground">{t("title")}</h1>
       <p className="mt-2 text-sm text-muted-foreground">{t("lastUpdated")}</p>
       <div className="prose prose-sm dark:prose-invert mt-8 max-w-none">

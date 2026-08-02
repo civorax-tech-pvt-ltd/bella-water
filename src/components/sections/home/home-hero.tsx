@@ -24,7 +24,7 @@ export function HomeHero() {
         aria-hidden
       />
 
-      <Container className="py-16 sm:py-20 lg:py-28">
+      <Container className="pt-28 pb-16 sm:pt-32 sm:pb-20 lg:pt-40 lg:pb-28">
         <div className="max-w-xl">
           <p className="mb-3 font-heading text-lg text-brand-green italic">{t("kicker")}</p>
           <h1 className="text-4xl font-bold tracking-tight text-balance text-brand-navy sm:text-5xl lg:text-6xl dark:text-foreground">
