@@ -84,6 +84,7 @@ export default async function LocaleLayout({
     <html
       lang={language?.htmlLang ?? locale}
       dir={language?.dir ?? "ltr"}
+      data-scroll-behavior="smooth"
       className={`${fontSans.variable} ${fontHeading.variable} h-full antialiased`}
       suppressHydrationWarning
     >

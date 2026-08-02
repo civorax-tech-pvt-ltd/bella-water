@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useRef } from "react";
 import { ShoppingCart, ArrowRight, Droplet, Leaf, ShieldCheck, HeartPulse } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
@@ -10,13 +13,27 @@ const stats = [Droplet, Leaf, ShieldCheck, HeartPulse];
 /** Full-bleed hero, matching the treatment shared by every other page's PageHero. */
 export function HomeHero() {
   const t = useTranslations("home.hero");
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    // Show the poster for a beat before the video kicks in, rather than
+    // starting playback the instant the page loads.
+    const timer = setTimeout(() => {
+      videoRef.current?.play();
+    }, 2000);
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <section className="relative isolate flex min-h-[560px] items-center overflow-hidden sm:min-h-[620px] lg:min-h-[680px]">
-      {/* eslint-disable-next-line @next/next/no-img-element -- static export, placeholder-friendly */}
-      <img
-        src="/images/hero/home-hero-bottles.jpg"
-        alt={t("imageAlt")}
+      <video
+        ref={videoRef}
+        src="/videos/bella-cinematic.mp4"
+        poster="/images/hero/home-hero-bottles.jpg"
+        muted
+        loop
+        playsInline
+        aria-label={t("imageAlt")}
         className="absolute inset-0 -z-20 size-full object-cover"
       />
       <div

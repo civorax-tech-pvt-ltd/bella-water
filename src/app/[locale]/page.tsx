@@ -7,6 +7,7 @@ import { TrustBar } from "@/components/sections/home/trust-bar";
 import { PurityPreview } from "@/components/sections/home/purity-preview";
 import { ProductsPreview } from "@/components/sections/home/products-preview";
 import { WhyChoose } from "@/components/sections/home/why-choose";
+import { BrandVideo } from "@/components/sections/home/brand-video";
 import { TestimonialsSection } from "@/components/sections/home/testimonials-section";
 import { DeliveryBanner } from "@/components/sections/home/delivery-banner";
 
@@ -35,6 +36,7 @@ export default async function HomePage({
       <PurityPreview />
       <ProductsPreview />
       <WhyChoose />
+      <BrandVideo />
       <TestimonialsSection />
       <DeliveryBanner />
     </>
