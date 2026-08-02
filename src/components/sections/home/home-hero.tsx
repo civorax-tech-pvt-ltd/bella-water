@@ -49,13 +49,12 @@ export function HomeHero() {
           </dl>
         </div>
 
-        <div className="relative mx-auto aspect-square w-full max-w-md">
-          <div className="absolute inset-6 rounded-full bg-white/50 blur-2xl dark:bg-primary/10" aria-hidden />
+        <div className="relative mx-auto aspect-3/4 w-full max-w-md overflow-hidden rounded-3xl shadow-xl">
           {/* eslint-disable-next-line @next/next/no-img-element -- static export, placeholder-friendly */}
           <img
-            src="/images/hero/home-hero-bottles.png"
+            src="/images/hero/home-hero-bottles.jpg"
             alt={t("imageAlt")}
-            className="relative size-full object-contain drop-shadow-2xl"
+            className="size-full object-cover"
           />
         </div>
       </Container>

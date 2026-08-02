@@ -21,8 +21,13 @@ export function organizationSchema(locale: string) {
       streetAddress: siteConfig.address.street,
       addressLocality: siteConfig.address.city,
       addressRegion: siteConfig.address.region,
-      postalCode: siteConfig.address.postalCode,
+      ...(siteConfig.address.postalCode ? { postalCode: siteConfig.address.postalCode } : {}),
       addressCountry: "NP",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: siteConfig.address.coordinates.lat,
+      longitude: siteConfig.address.coordinates.lng,
     },
     sameAs: [
       siteConfig.social.facebook,

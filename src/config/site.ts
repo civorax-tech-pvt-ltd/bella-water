@@ -9,16 +9,20 @@ export const siteConfig = {
   fullName: "Bella Premium Drinking Water",
   tagline: "Pure by nature. Perfected by science.",
   description:
-    "Bella is a premium packaged drinking water brand from Biratnagar, Nepal — advanced 4-step purification, mineral-balanced, DFTQC-registered, and delivered fresh to homes, offices and businesses.",
+    "Bella is a premium packaged drinking water brand from Jhapa, Nepal — advanced 4-step purification, mineral-balanced, DFTQC-registered, and delivered fresh to homes, offices and businesses.",
   url: "https://www.bellawater.com.np",
   legalName: "Eastern Food & Beverage Pvt. Ltd.",
   founded: "2024",
 
   contact: {
-    phone: "+977-021-552210",
-    phoneDisplay: "+977-021-552210",
-    whatsapp: "+977-021-552210",
-    whatsappLink: "https://wa.me/97721552210",
+    // Primary — used for tel: links and the WhatsApp CTA everywhere on the site.
+    phone: "+977-9852620501",
+    // All three numbers, for display in the footer / contact page "Call Us" card.
+    phoneDisplay: "+977-9852620501 / +977-9852620502 / +977-9852620503",
+    phones: ["+977-9852620501", "+977-9852620502", "+977-9852620503"],
+    // Assuming the first number is WhatsApp-enabled — tell me if a different one should be used.
+    whatsapp: "+977-9852620501",
+    whatsappLink: "https://wa.me/9779852620501",
     email: "info@bellawater.com.np",
     hours: {
       weekdays: "Mon - Sat: 8:00 AM - 6:00 PM",
@@ -27,26 +31,35 @@ export const siteConfig = {
   },
 
   address: {
-    factory: "Factory: Biratnagar-15, Morang, Nepal",
-    street: "Biratnagar-15",
-    city: "Morang",
+    factory: "Factory: Kamal-6, Lakhanpur, Jhapa, Nepal",
+    street: "Kamal-6, Lakhanpur",
+    city: "Jhapa",
     region: "Koshi Province",
     country: "Nepal",
-    postalCode: "56613",
+    // TODO: exact postal code for Lakhanpur, Jhapa not confirmed — add when known.
+    postalCode: "",
+    coordinates: {
+      lat: 26.640409007846593,
+      lng: 87.71311004587909,
+    },
+
+  
   },
 
   social: {
     facebook: "https://facebook.com/bellawaternepal",
     instagram: "https://instagram.com/bellawaternepal",
-    whatsapp: "https://wa.me/97721552210",
+    whatsapp: "https://wa.me/9779852620501",
     youtube: "https://youtube.com/@bellawaternepal",
   },
 
+  // Placeholder — nearby Jhapa towns around the Lakhanpur factory. Confirm actual
+  // coverage and swap these in when ready (used on the Contact page).
   deliveryAreas: [
-    { name: "Biratnagar Metropolitan City", coverage: "All Wards" },
+    { name: "Kakarbhitta", coverage: "All Areas" },
+    { name: "Birtamod", coverage: "All Areas" },
     { name: "Damak", coverage: "All Areas" },
-    { name: "Itahari", coverage: "Select Areas" },
-    { name: "Jahada, Rangeli, Belbari", coverage: "And nearby locations" },
+    { name: "Bhadrapur, Charali", coverage: "And nearby locations" },
   ],
 } as const;
 

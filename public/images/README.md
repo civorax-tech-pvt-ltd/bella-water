@@ -1,12 +1,33 @@
 # Image assets
 
-The site renders with placeholder `<img>` tags pointing at the paths below.
-Drop files in with these **exact names** and they'll appear with zero code
-changes — nothing else needs to be touched.
+The site renders with `<img>` tags pointing at the paths below. Drop files in
+with these **exact names** and they'll appear with zero code changes.
 
 Images are served as-is (no `next/image` optimization, since the site is a
 static export with no image server) — export web-sized files: hero/lifestyle
-photos ~1600px wide, JPEG ~150–250KB; product renders as transparent PNG.
+photos ~1600px wide, JPEG ~150–250KB.
+
+Product and hero photography no longer needs to be a transparent cutout —
+`ProductCard` and the home hero both crop full photos with `object-cover`
+now, to match the photographic (not isolated-render) style of the supplied
+brand images.
+
+## ✅ Filled
+
+- `hero/home-hero-bottles.jpg` — 3-bottle lineup on rock, river/mountain bg
+- `hero/our-story-hero.jpg` — wide river/mountain landscape
+- `hero/purity-hero.jpg` — waterfall/mountain landscape
+- `hero/quality-hero.jpg` — 1L studio collage showing the DFTQC label
+- `hero/products-hero.jpg` — 20L jar splashing in river
+- `hero/business-hero.jpg` — 20L jar on kitchen counter
+- `hero/contact-hero.jpg` — 1L bottle on kitchen counter
+- `products/bottle-500ml.jpg` — 500ml on wet rocks
+- `products/bottle-1l.jpg` — 1L on kitchen counter (same as contact hero)
+- `products/jar-20l.jpg` — 20L on kitchen counter (same as business hero)
+- `lifestyle/family.jpg` — family in living room, drinking water
+- `lifestyle/river.jpg` — bottle vignettes + landscape (Our Story mission "future" tile)
+
+## Still needed
 
 ## logo/
 - `bella-logo.svg` or `.png` — not wired in yet; the header/footer currently
@@ -15,19 +36,7 @@ photos ~1600px wide, JPEG ~150–250KB; product renders as transparent PNG.
 - `apple-touch-icon.png` — 180x180
 - `icon-192.png`, `icon-512.png` — PWA manifest icons
 
-## hero/ (one per page, ~1600x1200, landscape)
-- `home-hero-bottles.png` — transparent cutout of the bottle lineup (home hero)
-- `our-story-hero.jpg`
-- `purity-hero.jpg`
-- `products-hero.jpg`
-- `quality-hero.jpg`
-- `business-hero.jpg`
-- `contact-hero.jpg`
-
-## products/ (transparent PNG cutouts)
-- `bottle-500ml.png`
-- `bottle-1l.png`
-- `jar-20l.png`
+## products/
 - `bottle-seal.jpg` — close-up of the tamper-proof seal (Quality page)
 
 ## process/ (purification steps, ~800x600)
@@ -49,7 +58,7 @@ photos ~1600px wide, JPEG ~150–250KB; product renders as transparent PNG.
 
 ## lifestyle/
 - `girl-drinking-water.jpg` (home "Why Choose" section)
-- `family.jpg`, `workplace.jpg`, `river.jpg` (Our Story mission section)
+- `workplace.jpg` (Our Story mission section, "For Workplaces" tile)
 - `delivery-truck.jpg` (home delivery banner, ~1600x900)
 - `delivery-truck-side.jpg` (contact page, ~1200x675)
 

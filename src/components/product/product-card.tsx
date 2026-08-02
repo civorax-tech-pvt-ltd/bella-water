@@ -9,19 +9,19 @@ export function ProductCard({ product }: { product: Product }) {
   const tCommon = useTranslations("products.card");
 
   return (
-    <Card id={product.slug} className="group relative overflow-hidden border-0 bg-brand-sky p-6 shadow-none dark:bg-secondary">
-      <Badge className="absolute top-6 left-6 bg-white text-brand-navy hover:bg-white dark:bg-card dark:text-primary">
-        {t("badge")}
-      </Badge>
-      <div className="mx-auto flex h-48 items-center justify-center">
+    <Card id={product.slug} className="group relative overflow-hidden border-0 bg-brand-sky p-0 shadow-none dark:bg-secondary">
+      <div className="relative aspect-4/5 overflow-hidden">
         {/* eslint-disable-next-line @next/next/no-img-element -- static export, placeholder-friendly */}
         <img
           src={product.image}
           alt={t("name")}
-          className="h-full w-auto object-contain transition-transform duration-300 group-hover:-translate-y-1"
+          className="size-full object-cover transition-transform duration-300 group-hover:scale-105"
         />
+        <Badge className="absolute top-4 left-4 bg-white text-brand-navy hover:bg-white dark:bg-card dark:text-primary">
+          {t("badge")}
+        </Badge>
       </div>
-      <div className="mt-6">
+      <div className="p-6">
         <h3 className="text-xl font-bold text-brand-navy dark:text-foreground">{t("name")}</h3>
         <p className="mt-1 text-sm font-medium text-muted-foreground">{t("tagline")}</p>
         <p className="mt-3 text-sm text-muted-foreground">{t("description")}</p>

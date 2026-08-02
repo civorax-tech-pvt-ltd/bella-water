@@ -12,7 +12,7 @@ export function MapSection() {
         <div className="aspect-4/3 overflow-hidden rounded-2xl border sm:aspect-video">
           <iframe
             title={t("mapTitle")}
-            src="https://www.google.com/maps?q=Biratnagar-15,Morang,Nepal&output=embed"
+            src={`https://www.google.com/maps?q=${siteConfig.address.coordinates.lat},${siteConfig.address.coordinates.lng}&z=16&output=embed`}
             className="size-full border-0"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

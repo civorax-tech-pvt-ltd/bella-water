@@ -189,7 +189,7 @@
     "factory": {
       "eyebrow": "Our Factory",
       "title": "Built with care. Powered by technology.",
-      "description": "Our modern facility in Biratnagar is equipped with global-standard technology and operated by a dedicated team to ensure every drop of Bella meets the highest quality.",
+      "description": "Our modern facility in Jhapa is equipped with global-standard technology and operated by a dedicated team to ensure every drop of Bella meets the highest quality.",
       "cta": "Take a Tour",
       "items": {
         "environment": {
@@ -212,7 +212,7 @@
     },
     "localRoots": {
       "eyebrow": "Our Roots",
-      "title": "Proudly From Biratnagar, Nepal",
+      "title": "Proudly From Jhapa, Nepal",
       "description": "We are a local brand with a global standard. Rooted in our community, we are dedicated to serving you with purity, honesty and care.",
       "items": {
         "location": "Location",
@@ -612,7 +612,7 @@
     },
     "deliveryAreas": {
       "title": "Delivery Areas",
-      "description": "We deliver across Biratnagar and nearby areas.",
+      "description": "We deliver across Jhapa and nearby areas.",
       "cta": "Check Your Area"
     },
     "form": {
@@ -674,11 +674,11 @@
   "seo": {
     "home": {
       "title": "Bella — Premium Drinking Water from Nepal",
-      "description": "Bella is a premium packaged drinking water brand from Biratnagar, Nepal — advanced 4-step purification, mineral-balanced, DFTQC-registered, delivered fresh to your doorstep."
+      "description": "Bella is a premium packaged drinking water brand from Jhapa, Nepal — advanced 4-step purification, mineral-balanced, DFTQC-registered, delivered fresh to your doorstep."
     },
     "ourStory": {
       "title": "Our Story",
-      "description": "Discover the story behind Bella — from our source in nature to our state-of-the-art purification facility in Biratnagar, Nepal."
+      "description": "Discover the story behind Bella — from our source in nature to our state-of-the-art purification facility in Jhapa, Nepal."
     },
     "purity": {
       "title": "Our Purity Process",
@@ -698,7 +698,7 @@
     },
     "contact": {
       "title": "Contact Us",
-      "description": "Get in touch with Bella for orders, delivery inquiries or business partnerships. Call, WhatsApp or visit our factory in Biratnagar."
+      "description": "Get in touch with Bella for orders, delivery inquiries or business partnerships. Call, WhatsApp or visit our factory in Jhapa."
     }
   }
 }
