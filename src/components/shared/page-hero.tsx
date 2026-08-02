@@ -17,27 +17,44 @@ interface PageHeroProps {
   className?: string;
 }
 
-/** Shared hero used by every interior page (Our Story, Purity, Products, Quality, Business, Contact). */
+/**
+ * Full-bleed photo hero with a left-side scrim for text legibility, shared
+ * by every interior page (Our Story, Purity, Products, Quality, Business,
+ * Contact). The scrim fades from the page background color on the left to
+ * fully transparent on the right, so the photo shows unobstructed while the
+ * text sits on a readable, theme-matched backdrop regardless of what part
+ * of the photo is behind it.
+ */
 export function PageHero({ eyebrow, title, description, image, stats, actions, className }: PageHeroProps) {
   return (
-    <section className={cn("relative overflow-hidden bg-brand-sky dark:bg-secondary", className)}>
-      <Container className="grid items-center gap-10 py-14 sm:py-20 lg:grid-cols-2 lg:py-24">
-        <div>
+    <section
+      className={cn(
+        "relative isolate flex min-h-[520px] items-center overflow-hidden sm:min-h-[580px] lg:min-h-[640px]",
+        className,
+      )}
+    >
+      {/* eslint-disable-next-line @next/next/no-img-element -- static export, placeholder-friendly */}
+      <img src={image} alt="" className="absolute inset-0 -z-20 size-full object-cover" />
+      <div
+        className="absolute inset-0 -z-10 bg-gradient-to-r from-background via-background/85 to-background/10"
+        aria-hidden
+      />
+
+      <Container className="py-14 sm:py-20">
+        <div className="max-w-xl">
           <p className="mb-3 text-sm font-semibold tracking-wide text-brand-navy uppercase dark:text-primary">
             {eyebrow}
           </p>
           <h1 className="text-4xl font-bold tracking-tight text-balance text-brand-navy sm:text-5xl dark:text-foreground">
             {title}
           </h1>
-          <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground text-pretty">
-            {description}
-          </p>
+          <p className="mt-5 text-base leading-relaxed text-muted-foreground text-pretty">{description}</p>
           {actions ? <div className="mt-8 flex flex-wrap gap-3">{actions}</div> : null}
           {stats && stats.length > 0 ? (
             <dl className="mt-10 flex flex-wrap gap-x-8 gap-y-4">
               {stats.map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2">
-                  <span className="flex size-9 items-center justify-center rounded-full bg-white text-brand-navy dark:bg-primary/15 dark:text-primary">
+                  <span className="flex size-9 items-center justify-center rounded-full bg-white text-brand-navy shadow-sm dark:bg-primary/15 dark:text-primary">
                     <Icon className="size-4" strokeWidth={1.75} />
                   </span>
                   <dd className="text-sm font-medium text-brand-navy dark:text-foreground">{label}</dd>
@@ -45,10 +62,6 @@ export function PageHero({ eyebrow, title, description, image, stats, actions, c
               ))}
             </dl>
           ) : null}
-        </div>
-        <div className="relative mx-auto aspect-4/3 w-full max-w-lg overflow-hidden rounded-3xl bg-white/40 dark:bg-white/5">
-          {/* eslint-disable-next-line @next/next/no-img-element -- static export, placeholder-friendly */}
-          <img src={image} alt="" className="size-full object-cover" />
         </div>
       </Container>
     </section>
