@@ -25,7 +25,7 @@ export function HomeHero() {
   }, []);
 
   return (
-    <section className="relative isolate flex min-h-[560px] items-center overflow-hidden sm:min-h-[620px] lg:min-h-[680px]">
+    <section className="relative isolate flex min-h-dvh items-center overflow-hidden">
       <video
         ref={videoRef}
         src="/videos/bella-cinematic.mp4"
