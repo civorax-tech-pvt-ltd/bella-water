@@ -15,7 +15,7 @@ export function CompareTable() {
   return (
     <section className="bg-brand-sky py-16 sm:py-20 dark:bg-secondary">
       <Container className="grid gap-8 lg:grid-cols-[2fr_1fr]">
-        <div>
+        <div className="min-w-0">
           <h2 className="mb-6 text-2xl font-bold text-brand-navy sm:text-3xl dark:text-foreground">{t("title")}</h2>
           <div className="overflow-x-auto rounded-2xl border bg-card">
             <table className="w-full min-w-[560px] text-sm">

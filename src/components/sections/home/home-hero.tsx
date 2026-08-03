@@ -37,7 +37,7 @@ export function HomeHero() {
         className="absolute inset-0 -z-20 size-full object-cover"
       />
       <div
-        className="absolute inset-0 -z-10 bg-gradient-to-r from-background via-background/85 to-background/10"
+        className="absolute inset-0 -z-10 bg-gradient-to-r from-background via-background/60 to-transparent"
         aria-hidden
       />
 

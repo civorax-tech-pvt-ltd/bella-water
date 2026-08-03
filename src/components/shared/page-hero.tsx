@@ -36,7 +36,7 @@ export function PageHero({ eyebrow, title, description, image, stats, actions, c
       {/* eslint-disable-next-line @next/next/no-img-element -- static export, placeholder-friendly */}
       <img src={image} alt="" className="absolute inset-0 -z-20 size-full object-cover" />
       <div
-        className="absolute inset-0 -z-10 bg-gradient-to-r from-background via-background/85 to-background/10"
+        className="absolute inset-0 -z-10 bg-gradient-to-r from-background via-background/60 to-transparent"
         aria-hidden
       />
 
