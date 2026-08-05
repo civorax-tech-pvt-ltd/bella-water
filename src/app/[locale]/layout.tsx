@@ -54,8 +54,14 @@ export async function generateMetadata({
       default: t("title"),
       template: `%s | Bella`,
     },
+    verification: {
+      google: "V9acxqUuN8-l86VPel_C-TRMW8HmQR60b8qLXFNnN_c",
+    },
     icons: {
-      icon: "/favicon.ico",
+      icon: [
+        { url: "/favicon.ico", sizes: "any" },
+        { url: "/images/logo/favicon.svg", type: "image/svg+xml" },
+      ],
       apple: "/images/logo/apple-touch-icon.png",
     },
     manifest: "/manifest.webmanifest",
