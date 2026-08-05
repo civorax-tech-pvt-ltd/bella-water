@@ -2,7 +2,8 @@
   "common": {
     "toggleTheme": "Toggle theme",
     "changeLanguage": "Change language",
-    "chatOnWhatsapp": "Chat on WhatsApp"
+    "chatOnWhatsapp": "Chat on WhatsApp",
+    "playVideo": "Play {title} video"
   },
   "nav": {
     "home": "Home",
@@ -213,6 +214,29 @@
         "team": {
           "title": "Skilled Team",
           "description": "Trained professionals committed to excellence."
+        }
+      }
+    },
+    "manufacturing": {
+      "eyebrow": "Inside Our Factory",
+      "title": "From raw material to sealed bottle.",
+      "description": "Watch every stage of how Bella is made — from preform molding to the final sealed, packaged bottle.",
+      "items": {
+        "petPreform": {
+          "title": "PET Preform Manufacturing",
+          "description": "Injection molding shapes food-grade PET into precision preforms, the first step of every bottle."
+        },
+        "capMolding": {
+          "title": "Cap Molding",
+          "description": "Tamper-proof caps are precision-molded to seal every bottle safely."
+        },
+        "waterTreatment": {
+          "title": "Water Treatment",
+          "description": "Our advanced purification systems in action, treating water to the highest standard."
+        },
+        "bottleBlowing": {
+          "title": "Bottle Blowing & Packaging",
+          "description": "Preforms are blow-molded into bottles, filled, sealed and packaged ready for delivery."
         }
       }
     },

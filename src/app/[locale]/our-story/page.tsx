@@ -10,6 +10,7 @@ import { CTABanner } from "@/components/shared/cta-banner";
 import { StoryJourney } from "@/components/sections/our-story/story-journey";
 import { MissionSection } from "@/components/sections/our-story/mission-section";
 import { FactorySection } from "@/components/sections/our-story/factory-section";
+import { ManufacturingProcess } from "@/components/sections/our-story/manufacturing-process";
 import { LocalRootsSection } from "@/components/sections/our-story/local-roots-section";
 
 export async function generateMetadata({
@@ -55,6 +56,7 @@ export default async function OurStoryPage({
       <StoryJourney />
       <MissionSection />
       <FactorySection />
+      <ManufacturingProcess />
       <LocalRootsSection />
       <CTABanner
         title={t("ctaTitle")}
