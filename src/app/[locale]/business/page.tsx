@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/config/site";
 
 import { OpportunitiesGrid } from "@/components/sections/business/opportunities-grid";
+import { PrivateLabel } from "@/components/sections/business/private-label";
 import { WhyPartner } from "@/components/sections/business/why-partner";
 import { PartnerInquiryForm } from "@/components/sections/business/partner-inquiry-form";
 
@@ -66,6 +67,7 @@ export default async function BusinessPage({
         }
       />
       <OpportunitiesGrid />
+      <PrivateLabel />
       <WhyPartner />
       <PartnerInquiryForm />
       <CTABanner title={t("ctaTitle")} primaryLabel={t("ctaWhatsapp")} secondaryLabel={t("ctaCall")} secondaryHref="/contact" />

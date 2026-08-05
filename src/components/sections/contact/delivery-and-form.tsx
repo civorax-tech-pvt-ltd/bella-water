@@ -65,9 +65,9 @@ export function DeliveryAndForm() {
           <div className="p-6">
             <h3 className="text-lg font-bold text-brand-navy dark:text-foreground">{tAreas("title")}</h3>
             <p className="mt-1 text-sm text-muted-foreground">{tAreas("description")}</p>
-            <ul className="mt-4 space-y-3">
+            <ul className="mt-4 grid grid-cols-1 gap-x-4 gap-y-3 sm:grid-cols-2">
               {siteConfig.deliveryAreas.map((area) => (
-                <li key={area.name} className="flex items-start gap-2.5">
+                <li key={area.name} className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-brand-green" />
                   <div>
                     <p className="text-sm font-medium text-foreground">{area.name}</p>

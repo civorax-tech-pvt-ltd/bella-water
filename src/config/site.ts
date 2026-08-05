@@ -47,18 +47,24 @@ export const siteConfig = {
   },
 
   social: {
-    facebook: "https://facebook.com/bellawaternepal",
+    facebook: "https://www.facebook.com/refreshingbellawater",
     instagram: "https://instagram.com/bellawaternepal",
     whatsapp: "https://wa.me/9779852620501",
     youtube: "https://youtube.com/@bellawaternepal",
   },
 
-  // Placeholder — nearby Jhapa towns around the Lakhanpur factory. Confirm actual
-  // coverage and swap these in when ready (used on the Contact page).
+  // Major towns across Koshi Province served from the Lakhanpur factory
+  // (used on the Contact page).
   deliveryAreas: [
-    { name: "Kakarbhitta", coverage: "All Areas" },
-    { name: "Birtamod", coverage: "All Areas" },
+    { name: "Biratnagar", coverage: "All Wards" },
+    { name: "Dharan", coverage: "All Areas" },
+    { name: "Itahari", coverage: "All Areas" },
+    { name: "Biratchowk", coverage: "All Areas" },
+    { name: "Belbari", coverage: "All Areas" },
+    { name: "Urlabari", coverage: "All Areas" },
     { name: "Damak", coverage: "All Areas" },
+    { name: "Birtamod", coverage: "All Areas" },
+    { name: "Kakarbhitta", coverage: "All Areas" },
     { name: "Bhadrapur, Charali", coverage: "And nearby locations" },
   ],
 } as const;

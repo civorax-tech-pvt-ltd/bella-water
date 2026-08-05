@@ -554,6 +554,31 @@
         }
       }
     },
+    "privateLabel": {
+      "eyebrow": "Private Label Manufacturing",
+      "title": "Your brand, bottled and filled by us.",
+      "description": "Restaurants, cafes, hotels and businesses can get their own fully branded, sealed water bottles — manufactured, filled and packaged entirely in-house at our factory.",
+      "videoTitle": "Bottle Blowing & Packaging",
+      "cta": "Start Your Private Label",
+      "items": {
+        "design": {
+          "title": "Custom Bottle & Cap Design",
+          "description": "Choose your bottle shape and cap style."
+        },
+        "branding": {
+          "title": "Your Own Label & Branding",
+          "description": "Your logo, your design, your brand."
+        },
+        "bottling": {
+          "title": "Full Bottling & Filling",
+          "description": "We fill and seal under your brand, ready to sell."
+        },
+        "quality": {
+          "title": "Quality Tested & Delivered",
+          "description": "Same rigorous standards as every Bella bottle."
+        }
+      }
+    },
     "whyPartner": {
       "eyebrow": "Why Partner With Bella?",
       "title": "A partnership that delivers more.",
@@ -592,7 +617,8 @@
         "bulkOrders": "Bulk Orders",
         "distributorship": "Distributorship",
         "retailStock": "Retail Stock",
-        "eventSupply": "Event Supply"
+        "eventSupply": "Event Supply",
+        "privateLabel": "Private Label Manufacturing"
       },
       "submit": "Submit Inquiry",
       "submitting": "Submitting...",

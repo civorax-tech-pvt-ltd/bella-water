@@ -24,7 +24,7 @@ import { siteConfig } from "@/config/site";
 import { submitToFormEndpoint, buildMailtoFallback, navigateTo } from "@/lib/forms";
 
 const businessTypes = ["retailer", "distributor", "hotelRestaurant", "eventInstitution", "other"] as const;
-const interests = ["bulkOrders", "distributorship", "retailStock", "eventSupply"] as const;
+const interests = ["bulkOrders", "distributorship", "retailStock", "eventSupply", "privateLabel"] as const;
 
 const schema = z.object({
   fullName: z.string().min(2),
