@@ -10,7 +10,7 @@ export const siteConfig = {
   tagline: "Pure by nature. Perfected by science.",
   description:
     "Bella is a premium packaged drinking water brand from Jhapa, Nepal — advanced 4-step purification, mineral-balanced, DFTQC-registered, and delivered fresh to homes, offices and businesses.",
-  url: "https://www.bellawater.com.np",
+  url: "https://www.belawater.com",
   legalName: "Eastern Food & Beverage Pvt. Ltd.",
   founded: "2024",
 

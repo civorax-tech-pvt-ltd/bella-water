@@ -16,6 +16,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { JsonLd } from "@/components/shared/json-ld";
 import { organizationSchema } from "@/lib/schema";
 import { pageMetadata } from "@/lib/seo";
+import { siteConfig } from "@/config/site";
 
 const fontSans = Inter({
   variable: "--font-sans",
@@ -49,7 +50,7 @@ export async function generateMetadata({
       title: t("title"),
       description: t("description"),
     }),
-    metadataBase: new URL("https://www.bellawater.com.np"),
+    metadataBase: new URL(siteConfig.url),
     title: {
       default: t("title"),
       template: `%s | Bella`,
