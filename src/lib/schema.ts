@@ -78,6 +78,33 @@ export function productSchema(locale: string, product: {
   };
 }
 
+export function articleSchema(
+  locale: string,
+  post: { slug: string; title: string; description: string; image: string; publishedDate: string },
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.description,
+    image: absoluteUrl(post.image),
+    datePublished: post.publishedDate,
+    author: {
+      "@type": "Organization",
+      name: siteConfig.name,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: siteConfig.legalName,
+      logo: {
+        "@type": "ImageObject",
+        url: absoluteUrl("/images/logo/icon-512.png"),
+      },
+    },
+    mainEntityOfPage: absoluteUrl(`/${locale}/blog/${post.slug}`),
+  };
+}
+
 export function faqSchema(items: { question: string; answer: string }[]) {
   return {
     "@context": "https://schema.org",

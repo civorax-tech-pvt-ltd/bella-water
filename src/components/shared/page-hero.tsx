@@ -51,16 +51,16 @@ export function PageHero({ eyebrow, title, description, image, stats, actions, c
           <p className="mt-5 text-base leading-relaxed text-muted-foreground text-pretty">{description}</p>
           {actions ? <div className="mt-8 flex flex-wrap gap-3">{actions}</div> : null}
           {stats && stats.length > 0 ? (
-            <dl className="mt-10 flex flex-wrap gap-x-8 gap-y-4">
+            <div className="mt-10 flex flex-wrap gap-x-8 gap-y-4">
               {stats.map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2">
                   <span className="flex size-9 items-center justify-center rounded-full bg-white text-brand-navy shadow-sm dark:bg-primary/15 dark:text-primary">
                     <Icon className="size-4" strokeWidth={1.75} />
                   </span>
-                  <dd className="text-sm font-medium text-brand-navy dark:text-foreground">{label}</dd>
+                  <span className="text-sm font-medium text-brand-navy dark:text-foreground">{label}</span>
                 </div>
               ))}
-            </dl>
+            </div>
           ) : null}
         </div>
       </Container>

@@ -36,8 +36,7 @@ export const siteConfig = {
     city: "Jhapa",
     region: "Koshi Province",
     country: "Nepal",
-    // TODO: exact postal code for Lakhanpur, Jhapa not confirmed — add when known.
-    postalCode: "",
+    postalCode: "57200",
     coordinates: {
       lat: 26.640409007846593,
       lng: 87.71311004587909,
@@ -99,6 +98,7 @@ export const footerNav: FooterColumn[] = [
       { key: "purity", href: "/purity" },
       { key: "products", href: "/products" },
       { key: "quality", href: "/quality" },
+      { key: "blog", href: "/blog" },
     ],
   },
   {

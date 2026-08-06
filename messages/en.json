@@ -11,6 +11,7 @@
     "purity": "Purity",
     "products": "Products",
     "quality": "Quality",
+    "blog": "Blog",
     "business": "Business",
     "contact": "Contact",
     "whatsappUs": "WhatsApp Us",
@@ -724,6 +725,70 @@
           "title": "Liability",
           "body": "Do not consume water from a bottle or jar with a broken or missing seal. Report any quality concerns to us immediately at the contact details provided."
         }
+      }
+    }
+  },
+  "blog": {
+    "eyebrow": "Bella Journal",
+    "title": "Guides & Insights",
+    "description": "Practical guides on drinking water quality, purification and choosing a brand you can trust in Nepal.",
+    "backToBlog": "Back to all articles",
+    "readingTime": "{minutes} min read",
+    "readMore": "Read Article",
+    "posts": {
+      "chooseWaterBrand": {
+        "title": "How to Choose the Best Drinking Water Brand in Nepal",
+        "excerpt": "Not all packaged drinking water is the same. Here's exactly what to check — purification method, mineral content, certification and seal safety — before you decide which brand to trust.",
+        "sections": [
+          {
+            "heading": "Why Water Quality Matters in Nepal",
+            "paragraphs": [
+              "Access to safe tap water varies a lot across Nepal, and even where municipal supply exists, aging pipes and inconsistent treatment mean many households and offices rely on packaged or delivered drinking water instead. That makes the choice of brand a genuine health decision, not just a convenience one — yet most people pick based on price or whichever bottle is closest at the shop.",
+              "The good news is that judging water quality doesn't require special expertise. A handful of concrete things — the purification process, mineral content, certification, and how the product is packaged and sealed — tell you almost everything you need to know before buying."
+            ]
+          },
+          {
+            "heading": "1. Check the Purification Process",
+            "paragraphs": [
+              "Ask (or look at the label) how the water is actually treated. A single-stage filter is not the same as a multi-stage process. The standard combination used by serious manufacturers is Reverse Osmosis (RO) to remove dissolved salts and heavy metals, Nano or Micro Filtration to catch fine particles, Ozonation to eliminate bacteria and viruses, and a final UV sterilization step as a chemical-free safety barrier.",
+              "Brands that only mention 'filtered' without specifying the stages are usually cutting corners. A transparent brand will happily explain — or show — each step of the process."
+            ]
+          },
+          {
+            "heading": "2. Look at Mineral Content, Not Just \"Purity\"",
+            "paragraphs": [
+              "Water that's been over-purified (extremely low TDS, close to zero) isn't actually ideal — it strips out the natural minerals your body needs and can taste noticeably flat. What you want is water that's been purified for safety and then balanced with essential minerals like calcium, magnesium and potassium at healthy levels, typically in the 50-150 mg/l TDS range for packaged drinking water.",
+              "Reputable brands publish their mineral composition table on the label or their website. If a brand can't tell you its TDS or mineral levels, that's a red flag."
+            ]
+          },
+          {
+            "heading": "3. Verify Certification and Registration",
+            "paragraphs": [
+              "In Nepal, legitimate packaged drinking water manufacturers are registered with the Department of Food Technology and Quality Control (DFTQC), which sets and enforces food safety standards. This registration number should be printed on the bottle label — look for a \"D.F.T.Q.C. No.\" and cross-check that the company is genuinely registered, not just printing a number.",
+              "Company registration (confirming the manufacturer is a real, legally operating business) is a second, separate thing worth checking, especially for bulk or business orders."
+            ]
+          },
+          {
+            "heading": "4. Packaging and Seal Safety",
+            "paragraphs": [
+              "Tampering is a real risk with any consumable product. Every bottle or jar should have a tamper-evident seal — a cap ring, foil, or shrink band that's clearly broken the first time it's opened. Never buy or accept a bottle with a loose, missing, or already-broken seal, regardless of how trusted the brand name looks.",
+              "Also worth checking: is the plastic BPA-free, and is it recyclable? Both matter for long-term health and environmental impact, especially if you're a regular household or office customer going through bottles frequently."
+            ]
+          },
+          {
+            "heading": "5. Reliable Delivery and Availability",
+            "paragraphs": [
+              "For everyday use — especially 20-liter jars for home or office — consistency matters as much as quality. A brand that's excellent but unreliable to restock isn't practical. Look for a manufacturer with an established local delivery area, clear ordering channels (phone, WhatsApp, or online), and a track record of on-time delivery rather than one-off convenience store purchases."
+            ]
+          },
+          {
+            "heading": "Putting It Together",
+            "paragraphs": [
+              "In short: check the purification stages, look for published mineral content, confirm DFTQC registration, inspect the seal before every use, and choose a brand with dependable delivery in your area. Bella is built around exactly these fundamentals — a 4-step RO, Nano Filtration, Ozonation and UV purification process, DFTQC-registered manufacturing in Jhapa, published mineral composition, tamper-proof sealed packaging, and regular delivery across Biratnagar, Dharan, Itahari, Damak, Birtamod, Kakarbhitta and nearby areas in Koshi Province.",
+              "Whichever brand you choose, using this checklist will make sure it's a genuinely good one — not just the most convenient one."
+            ]
+          }
+        ]
       }
     }
   },
