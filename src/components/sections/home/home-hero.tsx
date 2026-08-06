@@ -20,7 +20,7 @@ export function HomeHero() {
     // starting playback the instant the page loads.
     const timer = setTimeout(() => {
       videoRef.current?.play();
-    }, 2000);
+    }, 1000);
     return () => clearTimeout(timer);
   }, []);
 
