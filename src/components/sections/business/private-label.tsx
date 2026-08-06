@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import { Container } from "@/components/shared/container";
 import { VideoCard } from "@/components/shared/video-card";
 import { Button } from "@/components/ui/button";
+import { videoUrls } from "@/config/videos";
 
 const capabilities = [
   { key: "design", icon: PenTool },
@@ -44,7 +45,7 @@ export function PrivateLabel() {
         </div>
 
         <VideoCard
-          video="/videos/bottle-blowing-packaging.mp4"
+          video={videoUrls.bottleBlowingPackaging}
           poster="/videos/bottle-blowing-packaging.jpg"
           title={t("videoTitle")}
           playLabel={tCommon("playVideo", { title: t("videoTitle") })}

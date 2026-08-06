@@ -7,6 +7,7 @@ import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/shared/container";
 import { siteConfig } from "@/config/site";
+import { videoUrls } from "@/config/videos";
 
 const stats = [Droplet, Leaf, ShieldCheck, HeartPulse];
 
@@ -28,7 +29,7 @@ export function HomeHero() {
     <section className="relative isolate flex min-h-dvh items-center overflow-hidden">
       <video
         ref={videoRef}
-        src="/videos/bella-cinematic.mp4"
+        src={videoUrls.bellaCinematic}
         poster="/images/hero/home-hero-bottles.jpg"
         muted
         loop

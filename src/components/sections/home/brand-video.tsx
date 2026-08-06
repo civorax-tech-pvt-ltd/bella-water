@@ -5,6 +5,7 @@ import { Play } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/shared/container";
 import { SectionHeading } from "@/components/shared/section-heading";
+import { videoUrls } from "@/config/videos";
 
 export function BrandVideo() {
   const t = useTranslations("home.video");
@@ -29,7 +30,7 @@ export function BrandVideo() {
         <div className="relative mx-auto mt-12 aspect-video w-full overflow-hidden rounded-3xl bg-black shadow-xl">
           <video
             ref={videoRef}
-            src="/videos/bella-cinematic.mp4"
+            src={videoUrls.bellaCinematic}
             poster="/images/hero/home-hero-bottles.jpg"
             controls={playing}
             playsInline
