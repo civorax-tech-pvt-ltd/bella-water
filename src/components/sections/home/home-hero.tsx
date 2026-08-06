@@ -34,7 +34,7 @@ export function HomeHero() {
         muted
         loop
         playsInline
-        aria-label={t("imageAlt")}
+        aria-hidden="true"
         className="absolute inset-0 -z-20 size-full object-cover"
       />
       <div
@@ -65,18 +65,18 @@ export function HomeHero() {
               </Link>
             </Button>
           </div>
-          <dl className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
+          <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
             {stats.map((Icon, i) => (
               <div key={i} className="flex items-center gap-2">
                 <span className="flex size-9 items-center justify-center rounded-full bg-white text-brand-navy shadow-sm dark:bg-primary/15 dark:text-primary">
                   <Icon className="size-4" strokeWidth={1.75} />
                 </span>
-                <dd className="text-xs font-medium text-brand-navy sm:text-sm dark:text-foreground">
+                <span className="text-xs font-medium text-brand-navy sm:text-sm dark:text-foreground">
                   {t(`stats.${i}`)}
-                </dd>
+                </span>
               </div>
             ))}
-          </dl>
+          </div>
         </div>
       </Container>
     </section>

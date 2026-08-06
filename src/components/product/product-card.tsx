@@ -35,6 +35,7 @@ export function ProductCard({ product }: { product: Product }) {
         </ul>
         <a
           href={`#${product.slug}`}
+          aria-label={`${tCommon("learnMore")} — ${t("name")}`}
           className="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-navy hover:gap-2.5 dark:text-primary"
         >
           {tCommon("learnMore")}

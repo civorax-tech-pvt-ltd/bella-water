@@ -97,7 +97,10 @@
 }
 
 .dark {
-  --brand-navy: #4c7cd6;
+  /* Darkened from a lighter #4c7cd6 — that shade failed WCAG AA contrast
+     (~4.07:1) for white button/badge text against it. This passes at ~5.3:1
+     while staying meaningfully lighter than light mode's #0b2c5c. */
+  --brand-navy: #3a68c0;
   --brand-navy-deep: #050f22;
   --brand-green: #34c37c;
   --brand-sky: #101e3a;
