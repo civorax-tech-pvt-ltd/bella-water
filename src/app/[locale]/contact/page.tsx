@@ -45,7 +45,7 @@ export default async function ContactPage({
         eyebrow={t("eyebrow")}
         title={t("title")}
         description={t("description")}
-        image="/images/hero/contact-hero.jpg"
+        image="/images/hero/contact-hero.webp"
         actions={
           <>
             <Button asChild size="lg" className="bg-whatsapp text-white hover:bg-whatsapp/90">

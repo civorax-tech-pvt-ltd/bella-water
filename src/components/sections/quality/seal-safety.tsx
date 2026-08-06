@@ -13,7 +13,7 @@ export function SealSafety() {
         <div className="grid items-center gap-8 rounded-3xl bg-brand-navy p-8 sm:p-10 lg:grid-cols-2">
           <div className="relative mx-auto aspect-square w-full max-w-xs overflow-hidden rounded-full">
             {/* eslint-disable-next-line @next/next/no-img-element -- static export, placeholder-friendly */}
-            <img src="/images/products/bottle-seal.jpg" alt="" className="size-full object-cover" />
+            <img src="/images/products/bottle-seal.webp" alt="" className="size-full object-cover" />
           </div>
           <div>
             <p className="mb-2 text-sm font-semibold tracking-wide text-brand-green uppercase">{t("eyebrow")}</p>

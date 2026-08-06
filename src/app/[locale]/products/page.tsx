@@ -43,7 +43,7 @@ export default async function ProductsPage({
         eyebrow={t("eyebrow")}
         title={t("title")}
         description={t("description")}
-        image="/images/hero/products-hero.jpg"
+        image="/images/hero/products-hero.webp"
         stats={[
           { icon: ShieldCheck, label: t("stats.purification") },
           { icon: Leaf, label: t("stats.minerals") },

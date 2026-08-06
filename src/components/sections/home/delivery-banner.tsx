@@ -22,7 +22,7 @@ export function DeliveryBanner() {
         </div>
         <div className="relative mx-auto aspect-video w-full max-w-lg overflow-hidden rounded-2xl">
           {/* eslint-disable-next-line @next/next/no-img-element -- static export, placeholder-friendly */}
-          <img src="/images/lifestyle/delivery-truck.jpg" alt="" className="size-full object-cover" />
+          <img src="/images/lifestyle/delivery-truck.webp" alt="" className="size-full object-cover" />
         </div>
       </Container>
     </section>

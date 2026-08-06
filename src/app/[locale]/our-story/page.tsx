@@ -45,7 +45,7 @@ export default async function OurStoryPage({
         eyebrow={t("eyebrow")}
         title={t("title")}
         description={t("description")}
-        image="/images/hero/our-story-hero.jpg"
+        image="/images/hero/our-story-hero.webp"
         stats={[
           { icon: Droplets, label: t("stats.purity") },
           { icon: Leaf, label: t("stats.minerals") },

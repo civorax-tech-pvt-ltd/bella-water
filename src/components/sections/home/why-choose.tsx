@@ -13,7 +13,7 @@ export function WhyChoose() {
       <Container className="grid items-center gap-10 lg:grid-cols-2">
         <div className="relative order-2 aspect-4/3 overflow-hidden rounded-3xl lg:order-1">
           {/* eslint-disable-next-line @next/next/no-img-element -- static export, placeholder-friendly */}
-          <img src="/images/lifestyle/girl-drinking-water.jpg" alt="" className="size-full object-cover" />
+          <img src="/images/lifestyle/girl-drinking-water.webp" alt="" className="size-full object-cover" />
           <div className="absolute right-4 bottom-4 flex items-center gap-2 rounded-xl bg-white px-4 py-3 shadow-lg dark:bg-card">
             <CheckCircle2 className="size-5 text-brand-green" />
             <span className="text-sm font-semibold text-brand-navy dark:text-foreground">{t("badge")}</span>

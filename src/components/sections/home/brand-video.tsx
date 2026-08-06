@@ -31,7 +31,7 @@ export function BrandVideo() {
           <video
             ref={videoRef}
             src={videoUrls.bellaCinematic}
-            poster="/images/hero/home-hero-bottles.jpg"
+            poster="/images/hero/home-hero-bottles.webp"
             controls={playing}
             playsInline
             className="size-full object-cover"

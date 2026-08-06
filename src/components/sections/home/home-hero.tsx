@@ -21,7 +21,7 @@ export function HomeHero() {
     // starting playback the instant the page loads.
     const timer = setTimeout(() => {
       videoRef.current?.play();
-    }, 1000);
+    }, 2000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -30,7 +30,7 @@ export function HomeHero() {
       <video
         ref={videoRef}
         src={videoUrls.bellaCinematic}
-        poster="/images/hero/home-hero-bottles.jpg"
+        poster="/images/hero/home-hero-bottles.webp"
         muted
         loop
         playsInline

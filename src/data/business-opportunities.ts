@@ -10,10 +10,10 @@ export interface BusinessOpportunity {
 }
 
 export const businessOpportunities: BusinessOpportunity[] = [
-  { key: "retailers", slug: "retailers", icon: Store, image: "/images/business/retailers.jpg" },
-  { key: "distributors", slug: "distributors", icon: Truck, image: "/images/business/distributors.jpg" },
-  { key: "hotelsRestaurants", slug: "hotels-restaurants", icon: Building2, image: "/images/business/hotels.jpg" },
-  { key: "eventsInstitutions", slug: "events", icon: CalendarDays, image: "/images/business/events.jpg" },
+  { key: "retailers", slug: "retailers", icon: Store, image: "/images/business/retailers.webp" },
+  { key: "distributors", slug: "distributors", icon: Truck, image: "/images/business/distributors.webp" },
+  { key: "hotelsRestaurants", slug: "hotels-restaurants", icon: Building2, image: "/images/business/hotels.webp" },
+  { key: "eventsInstitutions", slug: "events", icon: CalendarDays, image: "/images/business/events.webp" },
 ];
 
 export interface BusinessBenefit {

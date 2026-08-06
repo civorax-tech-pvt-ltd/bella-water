@@ -46,7 +46,7 @@ export default async function BusinessPage({
         eyebrow={t("eyebrow")}
         title={t("title")}
         description={t("description")}
-        image="/images/hero/business-hero.jpg"
+        image="/images/hero/business-hero.webp"
         stats={[
           { icon: Users, label: t("stats.brand") },
           { icon: Leaf, label: t("stats.quality") },

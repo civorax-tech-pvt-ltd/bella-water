@@ -46,7 +46,7 @@ export default async function QualityPage({
         eyebrow={t("eyebrow")}
         title={t("title")}
         description={t("description")}
-        image="/images/hero/quality-hero.jpg"
+        image="/images/hero/quality-hero.webp"
         stats={[
           { icon: ShieldCheck, label: t("stats.purification") },
           { icon: Beaker, label: t("stats.tested") },

@@ -4,9 +4,9 @@ import { Container } from "@/components/shared/container";
 import { SectionHeading } from "@/components/shared/section-heading";
 
 const items = [
-  { key: "families", icon: Users, image: "/images/lifestyle/family.jpg" },
-  { key: "workplaces", icon: Building2, image: "/images/lifestyle/workplace.jpg" },
-  { key: "future", icon: Globe2, image: "/images/lifestyle/river.jpg" },
+  { key: "families", icon: Users, image: "/images/lifestyle/family.webp" },
+  { key: "workplaces", icon: Building2, image: "/images/lifestyle/workplace.webp" },
+  { key: "future", icon: Globe2, image: "/images/lifestyle/river.webp" },
 ] as const;
 
 export function MissionSection() {

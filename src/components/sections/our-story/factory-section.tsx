@@ -38,7 +38,7 @@ export function FactorySection() {
         </div>
         <div className="relative aspect-4/3 overflow-hidden rounded-2xl">
           {/* eslint-disable-next-line @next/next/no-img-element -- static export, placeholder-friendly */}
-          <img src="/images/factory/factory-exterior.jpg" alt="" className="size-full object-cover" />
+          <img src="/images/factory/factory-exterior.webp" alt="" className="size-full object-cover" />
         </div>
       </Container>
     </section>

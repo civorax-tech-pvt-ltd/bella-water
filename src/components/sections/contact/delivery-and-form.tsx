@@ -60,7 +60,7 @@ export function DeliveryAndForm() {
         <div className="overflow-hidden rounded-2xl border bg-card">
           <div className="aspect-video overflow-hidden">
             {/* eslint-disable-next-line @next/next/no-img-element -- static export, placeholder-friendly */}
-            <img src="/images/lifestyle/delivery-truck-side.jpg" alt="" className="size-full object-cover" />
+            <img src="/images/lifestyle/delivery-truck-side.webp" alt="" className="size-full object-cover" />
           </div>
           <div className="p-6">
             <h3 className="text-lg font-bold text-brand-navy dark:text-foreground">{tAreas("title")}</h3>

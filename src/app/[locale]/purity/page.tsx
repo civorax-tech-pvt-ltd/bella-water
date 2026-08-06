@@ -43,7 +43,7 @@ export default async function PurityPage({
         eyebrow={t("eyebrow")}
         title={t("title")}
         description={t("description")}
-        image="/images/hero/purity-hero.jpg"
+        image="/images/hero/purity-hero.webp"
         stats={[
           { icon: ShieldCheck, label: t("stats.purification") },
           { icon: Beaker, label: t("stats.microbial") },

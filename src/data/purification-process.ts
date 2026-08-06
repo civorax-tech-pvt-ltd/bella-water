@@ -10,8 +10,8 @@ export interface PurificationStep {
 }
 
 export const purificationSteps: PurificationStep[] = [
-  { key: "reverseOsmosis", number: "01", icon: Waves, image: "/images/process/reverse-osmosis.jpg" },
-  { key: "nanoFiltration", number: "02", icon: Grid3x3, image: "/images/process/nano-filtration.jpg" },
-  { key: "ozonation", number: "03", icon: Atom, image: "/images/process/ozonation.jpg" },
-  { key: "uvSterilization", number: "04", icon: Sun, image: "/images/process/uv-sterilization.jpg" },
+  { key: "reverseOsmosis", number: "01", icon: Waves, image: "/images/process/reverse-osmosis.webp" },
+  { key: "nanoFiltration", number: "02", icon: Grid3x3, image: "/images/process/nano-filtration.webp" },
+  { key: "ozonation", number: "03", icon: Atom, image: "/images/process/ozonation.webp" },
+  { key: "uvSterilization", number: "04", icon: Sun, image: "/images/process/uv-sterilization.webp" },
 ];
