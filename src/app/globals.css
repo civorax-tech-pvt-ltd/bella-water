@@ -155,3 +155,24 @@
     @apply font-heading;
   }
 }
+
+/*
+ * Devanagari script (Nepali) needs noticeably more line-height than Latin
+ * text — its vowel marks (matras) extend well above and below the base
+ * letter, so the tight leading/tracking tuned for Latin display headings
+ * makes Nepali lines crowd into each other. This applies site-wide to
+ * every current and future heading rendered under the Nepali locale.
+ *
+ * Deliberately left outside any @layer: Tailwind's utility classes (the
+ * text-4xl/text-5xl/etc. that set line-height, and tracking-tight) live in
+ * @layer utilities, which always wins over @layer base regardless of
+ * selector specificity. Unlayered rules take priority over every @layer,
+ * layered or not, so this is the only way to actually override them.
+ */
+:lang(ne) h1,
+:lang(ne) h2,
+:lang(ne) h3,
+:lang(ne) h4 {
+  letter-spacing: normal !important;
+  line-height: 1.4 !important;
+}

@@ -30,8 +30,8 @@ export function BrandVideo() {
         <div className="relative mx-auto mt-12 aspect-video w-full overflow-hidden rounded-3xl bg-black shadow-xl">
           <video
             ref={videoRef}
-            src={videoUrls.bellaCinematic}
-            poster="/images/hero/home-hero-bottles.webp"
+            src={videoUrls.bellaAdv1}
+            poster="/videos/bella-adv1-poster.jpg"
             controls={playing}
             playsInline
             className="size-full object-cover"
