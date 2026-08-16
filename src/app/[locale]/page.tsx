@@ -36,7 +36,7 @@ export default async function HomePage({
       <PurityPreview />
       <ProductsPreview />
       <WhyChoose />
-      <BrandVideo />
+      {/* <BrandVideo /> */}
       <TestimonialsSection />
       <DeliveryBanner />
     </>

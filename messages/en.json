@@ -61,7 +61,7 @@
     "hero": {
       "kicker": "Pure by nature.",
       "title": "Perfected by science.",
-      "description": "From the untouched springs of Nepal to your home, Bella water is purified with advanced technology and enriched with essential minerals for a pure, refreshing and healthy life.",
+      "description": "From the untouched springs of Nepal to your home, Bella water is purified with advanced 4-step technology for a pure, refreshing and healthy life.",
       "primaryCta": "Order 20L Refill",
       "secondaryCta": "Explore Our Products",
       "imageAlt": "Bella premium drinking water bottles",
@@ -80,8 +80,8 @@
           "description": "4-step advanced purification process"
         },
         "essentialMinerals": {
-          "title": "Essential Minerals",
-          "description": "Enriched with naturally occurring minerals"
+          "title": "Pure & Clean",
+          "description": "Advanced purification for the cleanest drinking water"
         },
         "nepalProud": {
           "title": "Nepal Proud",
@@ -155,7 +155,7 @@
       "description": "Bella is more than just water. It is the result of nature's purity and our commitment to advanced purification, quality, and the well-being of every family.",
       "stats": {
         "purity": "Pure Source",
-        "minerals": "Added Minerals",
+        "minerals": "Processed Water",
         "quality": "Trusted Quality",
         "trusted": "Advanced Purification"
       },
@@ -166,12 +166,12 @@
     "journey": {
       "eyebrow": "Our Journey",
       "title": "The Bella Story",
-      "description": "Bella was born from a simple belief — everyone deserves safe, clean and mineral-balanced drinking water. From our carefully selected source to our state-of-the-art purification process, every step is taken with care and responsibility. We are proud to deliver water that you can trust, every single day.",
+      "description": "Bella was born from a simple belief — everyone deserves safe, clean and processed drinking water. From our carefully selected source to our state-of-the-art purification process, every step is taken with care and responsibility. We are proud to deliver water that you can trust, every single day.",
       "cta": "Our Commitment",
       "items": {
         "pureSource": "Carefully selected water sources from nature.",
         "advancedPurification": "RO, Nano Filtration, Ozonation & UV for complete purity.",
-        "addedMinerals": "Perfectly balanced minerals for better health & taste.",
+        "balanced": "Perfectly balanced composition for great taste.",
         "trustedQuality": "Tested, certified and delivered with care you can trust."
       }
     },
@@ -257,11 +257,11 @@
     "hero": {
       "eyebrow": "Our Purity Promise",
       "title": "Pure by nature. Perfected by science.",
-      "description": "Every drop of Bella water goes through a meticulous 4-step purification process and is enriched with essential minerals to deliver purity, safety and great taste.",
+      "description": "Every drop of Bella water goes through a meticulous 4-step purification process to deliver purity, safety and great taste.",
       "stats": {
         "purification": "Advanced Purification",
         "microbial": "Microbial Safety",
-        "minerals": "Added Minerals",
+        "minerals": "Processed Water",
         "trusted": "Trusted Quality"
       },
       "ctaTitle": "Four advanced steps. One promise.",
@@ -310,7 +310,7 @@
       "description": "From on-the-go hydration to home and office needs, Bella has the perfect choice for you.",
       "stats": {
         "purification": "Advanced Purification",
-        "minerals": "Essential Minerals",
+        "minerals": "Essential Filtration",
         "quality": "Trusted Quality"
       },
       "ctaTitle": "Good water. Every day.",
@@ -344,8 +344,8 @@
         "description": "4-step advanced purification process"
       },
       "mineralBalanced": {
-        "title": "Mineral Balanced",
-        "description": "Enriched with essential minerals"
+        "title": "Pure Composition",
+        "description": "Processed water with balanced composition"
       },
       "qualityAssured": {
         "title": "Quality Assured",
@@ -403,7 +403,7 @@
       "stats": {
         "purification": "Advanced Purification",
         "tested": "Tested & Certified",
-        "minerals": "Essential Minerals",
+        "minerals": "Pure & Clean",
         "safe": "Safe for Everyday"
       },
       "ctaTitle": "Your safety is our first priority.",
@@ -755,10 +755,10 @@
             ]
           },
           {
-            "heading": "2. Look at Mineral Content, Not Just \"Purity\"",
+            "heading": "2. Look at TDS (Total Dissolved Solids) Levels",
             "paragraphs": [
-              "Water that's been over-purified (extremely low TDS, close to zero) isn't actually ideal — it strips out the natural minerals your body needs and can taste noticeably flat. What you want is water that's been purified for safety and then balanced with essential minerals like calcium, magnesium and potassium at healthy levels, typically in the 50-150 mg/l TDS range for packaged drinking water.",
-              "Reputable brands publish their mineral composition table on the label or their website. If a brand can't tell you its TDS or mineral levels, that's a red flag."
+              "Water that's been over-purified (extremely low TDS, close to zero) isn't actually ideal — it can taste noticeably flat. What you want is processed water with appropriate TDS levels, typically in the 50-150 mg/l range for packaged drinking water, which indicates balanced composition.",
+              "Reputable brands publish their TDS composition table on the label or their website. If a brand can't tell you its TDS level, that's a red flag."
             ]
           },
           {
@@ -784,7 +784,7 @@
           {
             "heading": "Putting It Together",
             "paragraphs": [
-              "In short: check the purification stages, look for published mineral content, confirm DFTQC registration, inspect the seal before every use, and choose a brand with dependable delivery in your area. Bella is built around exactly these fundamentals — a 4-step RO, Nano Filtration, Ozonation and UV purification process, DFTQC-registered manufacturing in Jhapa, published mineral composition, tamper-proof sealed packaging, and regular delivery across Biratnagar, Dharan, Itahari, Damak, Birtamod, Kakarbhitta and nearby areas in Koshi Province.",
+              "In short: check the purification stages, look for published TDS levels, confirm DFTQC registration, inspect the seal before every use, and choose a brand with dependable delivery in your area. Bella is built around exactly these fundamentals — a 4-step RO, Nano Filtration, Ozonation and UV purification process, DFTQC-registered manufacturing in Jhapa, published TDS composition, tamper-proof sealed packaging, and regular delivery across Biratnagar, Dharan, Itahari, Damak, Birtamod, Kakarbhitta and nearby areas in Koshi Province.",
               "Whichever brand you choose, using this checklist will make sure it's a genuinely good one — not just the most convenient one."
             ]
           }
@@ -795,7 +795,7 @@
   "seo": {
     "home": {
       "title": "Bella — Premium Drinking Water from Nepal",
-      "description": "Bella is Nepal's trusted premium drinking water company — DFTQC-certified, mineral-balanced, 4-step RO & UV purified water delivered fresh across Biratnagar, Dharan, Itahari, Damak, Jhapa and greater Koshi Province. Order 500ml, 1L bottles or 20L jars today."
+      "description": "Bella is Nepal's trusted premium drinking water company — DFTQC-certified, processed, 4-step RO & UV purified water delivered fresh across Biratnagar, Dharan, Itahari, Damak, Jhapa and greater Koshi Province. Order 500ml, 1L bottles or 20L jars today."
     },
     "ourStory": {
       "title": "Our Story",

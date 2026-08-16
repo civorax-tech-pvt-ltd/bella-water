@@ -56,7 +56,7 @@ export default async function QualityPage({
       />
       <QualityProcess />
       <CertificationsSection />
-      <MineralComposition />
+      {/* <MineralComposition /> */}
       <QualityStandards />
       <SealSafety />
       <StorageInfo />

@@ -52,7 +52,7 @@ export default async function PurityPage({
         ]}
       />
       <PurificationSteps />
-      <MineralComposition />
+      {/* <MineralComposition /> */}
       <CertifiedPurity />
       <CTABanner title={t("ctaTitle")} primaryLabel={t("ctaWhatsapp")} secondaryLabel={t("ctaQuality")} secondaryHref="/quality" />
     </>
