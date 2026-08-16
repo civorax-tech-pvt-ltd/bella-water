@@ -45,8 +45,8 @@ export function PrivateLabel() {
         </div>
 
         <VideoCard
-          video={videoUrls.bottleBlowingPackaging}
-          poster="/videos/bottle-blowing-packaging.jpg"
+          video={videoUrls.privateLabelBrand}
+          poster="/videos/private-label-brand.jpg"
           title={t("videoTitle")}
           playLabel={tCommon("playVideo", { title: t("videoTitle") })}
         />
