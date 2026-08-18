@@ -24,17 +24,17 @@ export function FactorySection() {
           <Button asChild variant="secondary" className="mt-6">
             <Link href="/quality">{t("cta")}</Link>
           </Button>
-          <dl className="mt-8 grid grid-cols-2 gap-5">
+          <div className="mt-8 grid grid-cols-2 gap-5">
             {items.map((item) => (
               <div key={item.key} className="flex items-start gap-2.5">
                 <item.icon className="mt-0.5 size-4 shrink-0 text-brand-green" />
                 <div>
-                  <dt className="text-sm font-semibold text-white">{t(`items.${item.key}.title`)}</dt>
-                  <dd className="text-xs text-white/60">{t(`items.${item.key}.description`)}</dd>
+                  <h3 className="text-sm font-semibold text-white">{t(`items.${item.key}.title`)}</h3>
+                  <p className="text-xs text-white/60">{t(`items.${item.key}.description`)}</p>
                 </div>
               </div>
             ))}
-          </dl>
+          </div>
         </div>
         <div className="relative aspect-4/3 overflow-hidden rounded-2xl">
           {/* eslint-disable-next-line @next/next/no-img-element -- static export, placeholder-friendly */}

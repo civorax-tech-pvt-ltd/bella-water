@@ -51,6 +51,7 @@ export function TrustedLocals() {
               <img
                 src={`/images/gallery/${image.id}.webp`}
                 alt={image.alt}
+                loading="lazy"
                 className={`size-full object-cover transition-transform duration-300 ${
                   highlightIndex === index ? "scale-110" : "scale-100 group-hover:scale-105"
                 }`}
