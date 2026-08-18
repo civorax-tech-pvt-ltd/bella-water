@@ -9,6 +9,7 @@ import { ProductsPreview } from "@/components/sections/home/products-preview";
 import { WhyChoose } from "@/components/sections/home/why-choose";
 import { BrandVideo } from "@/components/sections/home/brand-video";
 import { TestimonialsSection } from "@/components/sections/home/testimonials-section";
+import { TrustedLocals } from "@/components/sections/home/trusted-locals";
 import { DeliveryBanner } from "@/components/sections/home/delivery-banner";
 
 export async function generateMetadata({
@@ -38,6 +39,7 @@ export default async function HomePage({
       <WhyChoose />
       {/* <BrandVideo /> */}
       <TestimonialsSection />
+      <TrustedLocals />
       <DeliveryBanner />
     </>
   );

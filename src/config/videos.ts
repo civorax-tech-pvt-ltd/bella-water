@@ -16,4 +16,5 @@ export const videoUrls = {
   waterTreatment: `${BLOB_BASE}/water-treatment.mp4`,
   privateLabelBrand: `${BLOB_BASE}/private-label-brand.mp4`,
   filtrationProcess: `${BLOB_BASE}/filtration-process.mp4`,
+  ourStoryHero: `${BLOB_BASE}/our-story.mp4`,
 } as const;

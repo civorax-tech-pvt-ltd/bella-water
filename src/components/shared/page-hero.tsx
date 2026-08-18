@@ -11,7 +11,9 @@ interface PageHeroProps {
   eyebrow: string;
   title: React.ReactNode;
   description: string;
-  image: string;
+  image?: string;
+  video?: string;
+  poster?: string;
   stats?: HeroStat[];
   actions?: React.ReactNode;
   className?: string;
@@ -25,7 +27,7 @@ interface PageHeroProps {
  * text sits on a readable, theme-matched backdrop regardless of what part
  * of the photo is behind it.
  */
-export function PageHero({ eyebrow, title, description, image, stats, actions, className }: PageHeroProps) {
+export function PageHero({ eyebrow, title, description, image, video, poster, stats, actions, className }: PageHeroProps) {
   return (
     <section
       className={cn(
@@ -33,8 +35,21 @@ export function PageHero({ eyebrow, title, description, image, stats, actions, c
         className,
       )}
     >
-      {/* eslint-disable-next-line @next/next/no-img-element -- static export, placeholder-friendly */}
-      <img src={image} alt="" className="absolute inset-0 -z-20 size-full object-cover" />
+      {video ? (
+        <video
+          src={video}
+          poster={poster}
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 -z-20 size-full object-cover"
+          aria-hidden="true"
+        />
+      ) : (
+        /* eslint-disable-next-line @next/next/no-img-element -- static export, placeholder-friendly */
+        <img src={image} alt="" className="absolute inset-0 -z-20 size-full object-cover" />
+      )}
       <div
         className="absolute inset-0 -z-10 bg-gradient-to-r from-background via-background/60 to-transparent"
         aria-hidden

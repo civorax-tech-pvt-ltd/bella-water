@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 const items = [
   { key: "pureSource", icon: Droplet },
   { key: "advancedPurification", icon: ShieldCheck },
-  { key: "addedMinerals", icon: Leaf },
+  { key: "balanced", icon: Leaf },
   { key: "trustedQuality", icon: HeartHandshake },
 ] as const;
 
