@@ -15,4 +15,5 @@ export const videoUrls = {
   petPreformManufacturing: `${BLOB_BASE}/pet-preform-manufacturing.mp4`,
   waterTreatment: `${BLOB_BASE}/water-treatment.mp4`,
   privateLabelBrand: `${BLOB_BASE}/private-label-brand.mp4`,
+  filtrationProcess: `${BLOB_BASE}/filtration-process.mp4`,
 } as const;

@@ -224,8 +224,8 @@
       "description": "Watch every stage of how Bella is made — from preform molding to the final sealed, packaged bottle.",
       "items": {
         "petPreform": {
-          "title": "PET Preform Manufacturing",
-          "description": "Injection molding shapes food-grade PET into precision preforms, the first step of every bottle."
+          "title": "Filtration Process",
+          "description": "3D animation showing how our advanced multi-stage filtration system removes impurities and delivers pure water."
         },
         "capMolding": {
           "title": "Cap Molding",
