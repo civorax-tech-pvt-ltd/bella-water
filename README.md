@@ -1,4 +1,4 @@
-# Bella — Premium Drinking Water
+# Bella — Processed Drinking Water
 
 Static, SEO-optimized, multilingual marketing site for Bella (Eastern Food &
 Beverage Pvt. Ltd.), built with Next.js (App Router), TypeScript, Tailwind

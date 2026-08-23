@@ -6,10 +6,10 @@
 
 export const siteConfig = {
   name: "Bella",
-  fullName: "Bella Premium Drinking Water",
+  fullName: "Bella Processed Drinking Water",
   tagline: "Pure by nature. Perfected by science.",
   description:
-    "Bella is a premium packaged drinking water brand from Jhapa, Nepal — advanced 4-step purification, processed, DFTQC-registered, and delivered fresh to homes, offices and businesses.",
+    "Bella is a Processed packaged drinking water brand from Jhapa, Nepal — advanced 4-step purification, processed, DFTQC-registered, and delivered fresh to homes, offices and businesses.",
   url: "https://www.belawater.com",
   legalName: "Eastern Food & Beverage Pvt. Ltd.",
   founded: "2024",
@@ -65,6 +65,18 @@ export const siteConfig = {
     { name: "Birtamod", coverage: "All Areas" },
     { name: "Kakarbhitta", coverage: "All Areas" },
     { name: "Bhadrapur, Charali", coverage: "And nearby locations" },
+    { name: "Illam", coverage: "All Areas" },
+    { name: "Dhankuta", coverage: "All Areas" },
+    { name: "Hilea", coverage: "All Areas" },
+    { name: "Inarwa", coverage: "All Areas" },
+    { name: "Kanchapur", coverage: "All Areas" },
+    { name: "Rajbiraj", coverage: "All Areas" },
+    { name: "Mahuli", coverage: "All Areas" },
+    { name: "Rukuni", coverage: "All Areas" },
+    { name: "Chatara", coverage: "All Areas" },
+    { name: "Rampur", coverage: "All Areas" },
+    { name: "Pathri", coverage: "All Areas" },
+    { name: "Kaneapokhari", coverage: "All Areas" },
   ],
 } as const;
 

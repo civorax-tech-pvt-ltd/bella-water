@@ -24,7 +24,7 @@ export function Logo({ tone = "default" }: { tone?: "default" | "inverted" }) {
           tone === "inverted" ? "text-white/70" : "text-muted-foreground",
         )}
       >
-        Premium Drinking Water
+        Processed Drinking Water
       </span>
     </Link>
   );

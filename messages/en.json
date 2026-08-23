@@ -64,7 +64,7 @@
       "description": "From the untouched springs of Nepal to your home, Bella water is purified with advanced 4-step technology for a pure, refreshing and healthy life.",
       "primaryCta": "Order 20L Refill",
       "secondaryCta": "Explore Our Products",
-      "imageAlt": "Bella premium drinking water bottles",
+      "imageAlt": "Bella Processed drinking water bottles",
       "stats": {
         "0": "Advanced Purification",
         "1": "Mineral Balanced",
@@ -178,7 +178,7 @@
     "mission": {
       "eyebrow": "Our Mission",
       "title": "Better Water. Better Life.",
-      "description": "Our mission is to make premium quality drinking water accessible to every home, office and community while maintaining the highest standards of purity, safety and sustainability.",
+      "description": "Our mission is to make Processed quality drinking water accessible to every home, office and community while maintaining the highest standards of purity, safety and sustainability.",
       "items": {
         "families": {
           "title": "For Families",
@@ -518,10 +518,10 @@
     "hero": {
       "eyebrow": "Partner With Bella",
       "title": "Let's grow together.",
-      "description": "Join hands with Bella and bring premium, trusted drinking water to more people and build a successful business with us.",
+      "description": "Join hands with Bella and bring Processed, trusted drinking water to more people and build a successful business with us.",
       "stats": {
         "brand": "Strong Brand",
-        "quality": "Premium Quality",
+        "quality": "Processed Quality",
         "opportunity": "Profitable Opportunity",
         "support": "Reliable Support"
       },
@@ -547,7 +547,7 @@
         },
         "hotelsRestaurants": {
           "title": "For Hotels & Restaurants",
-          "description": "Provide your guests with premium drinking water they can trust."
+          "description": "Provide your guests with Processed drinking water they can trust."
         },
         "eventsInstitutions": {
           "title": "For Events & Institutions",
@@ -794,8 +794,8 @@
   },
   "seo": {
     "home": {
-      "title": "Bella — Premium Drinking Water from Nepal",
-      "description": "Bella is Nepal's trusted premium drinking water company — DFTQC-certified, processed, 4-step RO & UV purified water delivered fresh across Biratnagar, Dharan, Itahari, Damak, Jhapa and greater Koshi Province. Order 500ml, 1L bottles or 20L jars today."
+      "title": "Bella — Processed Drinking Water from Nepal",
+      "description": "Bella is Nepal's trusted Processed drinking water company — DFTQC-certified, processed, 4-step RO & UV purified water delivered fresh across Biratnagar, Dharan, Itahari, Damak, Jhapa and greater Koshi Province. Order 500ml, 1L bottles or 20L jars today."
     },
     "ourStory": {
       "title": "Our Story",
