@@ -6,7 +6,9 @@ export interface Certification {
 }
 
 export const certifications: Certification[] = [
-  { key: "dftqc", image: "/images/certificates/dftqc-registration.jpg", regNo: "02-04-76-08-817" },
-  { key: "companyRegistration", image: "/images/certificates/company-registration.jpg", regNo: "11723/5074/075" },
-  { key: "foodQuality", image: "/images/certificates/food-quality-compliance.jpg" },
+  { key: "dftqc", image: "/images/certificates/dftqc-registration.webp", regNo: "GINE-0029-FC" },
+  // { key: "companyRegistration", image: "/images/certificates/company-registration.webp", regNo: "11723/5074/075" },
+  { key: "foodQuality", image: "/images/certificates/food-quality-compliance.webp" },
 ];
+
+
