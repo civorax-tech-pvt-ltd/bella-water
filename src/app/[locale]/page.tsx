@@ -41,7 +41,7 @@ export default async function HomePage({
       <TestimonialsSection />
       <TrustedLocals />
       <DeliveryBanner />
-      {/* deploy testing */}
+      
     </>
   );
 }
