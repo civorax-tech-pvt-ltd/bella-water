@@ -17,9 +17,6 @@ const nextConfig: NextConfig = {
     // No server available to optimize images on a static host.
     unoptimized: true,
   },
-  experimental: {
-    turbopack: false,
-  },
 };
 
 export default withNextIntl(nextConfig);
